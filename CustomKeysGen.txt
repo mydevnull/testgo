@@ -329,7 +329,7 @@ Hotkey=B
 
 //improved lumber harvesting upgrades
 [Rhlh]
-Tip=Improved Lumber Harvesting (|cffffcc00L|r),Advanced Lumber Harvesting (|cffffcc00L|r) (|cffffcc00L|r)
+Tip=Improved Lumber Harvesting (|cffffcc00L|r),Advanced Lumber Harvesting (|cffffcc00L|r)
 Hotkey=L,L
 
 //defend upgrade
@@ -344,12 +344,12 @@ Hotkey=A
 
 //priest training upgrade
 [Rhpt]
-Tip=Priest Adept Training (|cffffcc00T|r),Priest Master Training (|cffffcc00T|r) (|cffffcc00T|r)
+Tip=Priest Adept Training (|cffffcc00T|r),Priest Master Training (|cffffcc00T|r)
 Hotkey=T,T
 
 //sorceress training upgrade
 [Rhst]
-Tip=Sorceress Adept Training (|cffffcc00O|r),Sorceress Master Training (|cffffcc00O|r) (|cffffcc00O|r)
+Tip=Sorceress Adept Training (|cffffcc00O|r),Sorceress Master Training (|cffffcc00O|r)
 Hotkey=O,O
 
 //long rifles upgrade
@@ -829,12 +829,12 @@ Hotkey=E
 
 //witch doctor training upgrade
 [Rowd]
-Tip=Witch Doctor Adept Training (|cffffcc00D|r),Witch Doctor Master Training (|cffffcc00D|r) (|cffffcc00D|r)
+Tip=Witch Doctor Adept Training (|cffffcc00D|r),Witch Doctor Master Training (|cffffcc00D|r)
 Hotkey=D,D
 
 //shaman training upgrade
 [Rost]
-Tip=Shaman Adept Training (|cffffcc00M|r),Shaman Master Training (|cffffcc00M|r) (|cffffcc00M|r)
+Tip=Shaman Adept Training (|cffffcc00M|r),Shaman Master Training (|cffffcc00M|r)
 Hotkey=M,M
 
 //spided barricades upgrade
@@ -859,7 +859,7 @@ Hotkey=B
 
 //spirit walker training upgrade
 [Rowt]
-Tip=Spirit Walker Adept Training (|cffffcc00R|r),Spirit Walker Master Training (|cffffcc00R|r) (|cffffcc00R|r)
+Tip=Spirit Walker Adept Training (|cffffcc00R|r),Spirit Walker Master Training (|cffffcc00R|r)
 Hotkey=R,R
 
 //troll berserker upgrade
@@ -1322,12 +1322,12 @@ Hotkey=G
 
 //druid of the talon training upgrade
 [Redt]
-Tip=Druid of the Talon Adept Training (|cffffcc00A|r),Druid of the Talon Master Training (|cffffcc00A|r) (|cffffcc00A|r)
+Tip=Druid of the Talon Adept Training (|cffffcc00A|r),Druid of the Talon Master Training (|cffffcc00A|r)
 Hotkey=A,A
 
 //druid of the claw training upgrade
 [Redc]
-Tip=Druid of the Claw Adept Training (|cffffcc00L|r),Druid of the Claw Master Training (|cffffcc00L|r) (|cffffcc00L|r)
+Tip=Druid of the Claw Adept Training (|cffffcc00L|r),Druid of the Claw Master Training (|cffffcc00L|r)
 Hotkey=L,L
 
 //abolish magic upgrade
@@ -1872,12 +1872,12 @@ Hotkey=S
 
 //necromancer training upgrades
 [Rune]
-Tip=Necromancer Adept Training (|cffffcc00E|r),Necromancer Master Training (|cffffcc00E|r) (|cffffcc00E|r)
+Tip=Necromancer Adept Training (|cffffcc00E|r),Necromancer Master Training (|cffffcc00E|r)
 Hotkey=E,E
 
 //banshee training upgrades
 [Ruba]
-Tip=Banshee Adept Training (|cffffcc00A|r),Banshee Master Training (|cffffcc00A|r) (|cffffcc00A|r)
+Tip=Banshee Adept Training (|cffffcc00A|r),Banshee Master Training (|cffffcc00A|r)
 Hotkey=A,A
 
 //freezing breath upgrade
