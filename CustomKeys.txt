@@ -624,7 +624,8 @@ Researchhotkey=V
 
 // Resurrection
 [AHre]
-Tip=|cffffcc00R|resurrectionHotkey=R
+Tip=|cffffcc00R|resurrection
+Hotkey=R
 Researchtip=Learn |cffffcc00R|resurrection
 Researchhotkey=R
 
