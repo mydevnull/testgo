@@ -152,10 +152,11 @@ Hotkey=E
 
 // Cloud
 [Aclf]
-Tip=Cloud (|cffffcc00F|r)
+Tip=Cloud (|cffffcc00C|r)
 Hotkey=C
 
 //footman
+[hfoo]	
 Hotkey=F
 Tip=Train Footman (|cffffcc00F|r)
 
@@ -400,9 +401,10 @@ Hotkey=C
 //altar of kings
 [halt]
 Hotkey=A
-Tip=Build Altar of Kings (|cffffcc00W|r)
+Tip=Build Altar of Kings (|cffffcc00A|r)
 
 //workshop
+[harm]	
 Hotkey=W
 Tip=Build Workshop (|cffffcc00W|r)
 
@@ -469,9 +471,10 @@ Tip=Build Arcane Vault (|cffffcc00V|r)
 //lumber mill
 [hlum]
 Hotkey=L
-Tip=Build Lumber Mill (|cffffcc00U|r)
+Tip=Build Lumber Mill (|cffffcc00L|r)
 
 //keep
+[hkee]	
 Hotkey=U
 Tip=Upgrade to Keep (|cffffcc00U|r)
 
