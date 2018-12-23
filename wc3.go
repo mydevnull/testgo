@@ -76,7 +76,7 @@ func (e Expression) replace(line string, key string) string {
 		return fmt.Sprintf(e.regex.ReplaceAllString(line, "$1$2$3$4 (|cffffcc00%s|r)"), key) + e.regex.ReplaceAllString(line, "$5")
 
 	case replaceTwo:
-		return fmt.Sprintf("%s (|cffffcc00%s|r)", e.regex.ReplaceAllString(line, "$1$2$3$4"), key)
+		return fmt.Sprintf(e.regex.ReplaceAllString(line, "$1$2$3$4 (|cffffcc00%s|r)$5$6$7$8 (|cffffcc00%s|r)"), key, key)
 
 	case replaceThree:
 		return fmt.Sprintf(e.regex.ReplaceAllString(line, "$1$2$3$4 (|cffffcc00%s|r)$5$6$7$8 (|cffffcc00%s|r)$9$10$11$12 (|cffffcc00%s|r)$13$14"), key, key, key)
@@ -192,13 +192,13 @@ func NewExpressions() []Expression {
 	})
 
 	expressions = append(expressions, Expression{ // Tip=t(i)p1,t(i)p2
-		action: replaceThree,
+		action: replaceTwo,
 		regex: regexp.MustCompile(`^(?P<name>Tip=)"?` +
 			`(?P<p1>[\w \-\!\.]*)\|cffffcc00(?P<key1>\w)\|r(?P<p2>[\w \-\!\.]*)(?P<l1> - \[\|cffffcc00Level 1\|r\],)` +
 			`(?P<p5>[\w \-\!\.]*)\|cffffcc00(?P<key3>\w)\|r(?P<p6>[\w \-\!\.]*)(?P<l3> - \[\|cffffcc00Level 2\|r\])"?$`),
 	})
 	expressions = append(expressions, Expression{ // Tip=t(i)p1,t(i)p2
-		action: replaceThree,
+		action: replaceTwo,
 		regex: regexp.MustCompile(`^(?P<name>Tip=)"?` +
 			`(?P<p1>[\w \-\!\.]*)\|cffffcc00(?P<key1>\w)\|r(?P<p2>[\w \-\!\.]*)(?P<l1>,)` +
 			`(?P<p5>[\w \-\!\.]*)\|cffffcc00(?P<key3>\w)\|r(?P<p6>[\w \-\!\.]*)(?P<l3>)"?$`),
