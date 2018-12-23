@@ -609,8 +609,10 @@ Researchhotkey=
 
 // Resurrection
 [AHre]
-Researchtip=Learn Resurrection (|cffffcc00|r)
-Researchhotkey=
+Tip=Resurrection (|cffffcc00R|r)
+Hotkey=R
+Researchtip=Learn Resurrection (|cffffcc00R|r)
+Researchhotkey=R
 
 
 /////////////////////////////
