@@ -92,7 +92,7 @@ func NewExpressions() []Expression {
 
 	expressions = append(expressions, Expression{ // command
 		action: command,
-		regex:  regexp.MustCompile(`^\[[\w]*\]$`),
+		regex:  regexp.MustCompile(`^[ \t]*\[[\w]*\][ \t]*$`),
 	})
 	expressions = append(expressions, Expression{ // hotkey
 		action: hotkey,
