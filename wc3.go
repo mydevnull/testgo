@@ -96,7 +96,7 @@ func NewExpressions() []Expression {
 	})
 	expressions = append(expressions, Expression{ // hotkey
 		action: hotkey,
-		regex:  regexp.MustCompile(`^Hotkey=(?P<hotkey>[\w \!\.]*)$`),
+		regex:  regexp.MustCompile(`^Hotkey=(?P<hotkey>\w+)(,\w+){0,2}$`),
 	})
 	expressions = append(expressions, Expression{ // comment
 		action: keep,
