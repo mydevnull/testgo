@@ -100,7 +100,7 @@ func NewExpressions() []Expression {
 	})
 	expressions = append(expressions, Expression{ // comment
 		action: keep,
-		regex:  regexp.MustCompile(`^\/\/[\w \-\!\.]*$`),
+		regex:  regexp.MustCompile(`^\/\/.*$`),
 	})
 	expressions = append(expressions, Expression{ // empty
 		action: keep,
