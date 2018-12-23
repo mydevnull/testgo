@@ -299,23 +299,28 @@ Hotkey=G
 
 //iron swords upgrades
 [Rhme]
-Tip=Upgrade to Iron Forged Swords (|cffffcc00|r),Upgrade to Steel Forged Swords (|cffffcc00|r),Upgrade to Mithril Forged Swords (|cffffcc00|r)
+Tip=Upgrade to Iron Forged Swords (|cffffcc00S|r),Upgrade to Steel Forged Swords (|cffffcc00S|r),Upgrade to Mithril Forged Swords (|cffffcc00S|r)
+Hotkey=S,S,S
 
 //gunpowder upgrades
 [Rhra]
-Tip=Upgrade to Black Gunpowder (|cffffcc00|r),Upgrade to Refined Gunpowder (|cffffcc00|r),Upgrade to Imbued Gunpowder (|cffffcc00|r)
+Tip=Upgrade to Black Gunpowder (|cffffcc00G|r),Upgrade to Refined Gunpowder (|cffffcc00G|r),Upgrade to Imbued Gunpowder (|cffffcc00G|r)
+Hotkey=G,G,G
 
 //iron armor upgrades
 [Rhar]
-Tip=Upgrade to Iron Plating (|cffffcc00|r),Upgrade to Steel Plating (|cffffcc00|r),Upgrade to Mithril Plating (|cffffcc00|r)
+Tip=Upgrade to Iron Plating (|cffffcc00P|r),Upgrade to Steel Plating (|cffffcc00P|r),Upgrade to Mithril Plating (|cffffcc00P|r)
+Hotkey=P,P,P
 
 //leather armor upgrades
 [Rhla]
-Tip=Upgrade to Studded Leather Armor (|cffffcc00|r),Upgrade to Reinforced Leather Armor (|cffffcc00|r),Upgrade to Dragonhide Armor (|cffffcc00|r)
+Tip=Upgrade to Studded Leather Armor (|cffffcc00A|r),Upgrade to Reinforced Leather Armor (|cffffcc00A|r),Upgrade to Dragonhide Armor (|cffffcc00A|r)
+Hotkey=A,A,A
 
 //masonry upgrades
 [Rhac]
-Tip=Upgrade to Improved Masonry (|cffffcc00|r),Upgrade to Advanced Masonry (|cffffcc00|r),Upgrade to Imbued Masonry (|cffffcc00|r)
+Tip=Upgrade to Improved Masonry (|cffffcc00M|r),Upgrade to Advanced Masonry (|cffffcc00M|r),Upgrade to Imbued Masonry (|cffffcc00M|r)
+Hotkey=M,M,M
 
 //flying machine bombs
 [Rhgb]
@@ -324,7 +329,8 @@ Hotkey=B
 
 //improved lumber harvesting upgrades
 [Rhlh]
-Tip=Improved Lumber Harvesting (|cffffcc00|r),Advanced Lumber Harvesting (|cffffcc00|r) (|cffffcc00|r)
+Tip=Improved Lumber Harvesting (|cffffcc00L|r),Advanced Lumber Harvesting (|cffffcc00L|r) (|cffffcc00L|r)
+Hotkey=L,L
 
 //defend upgrade
 [Rhde]
@@ -338,11 +344,13 @@ Hotkey=A
 
 //priest training upgrade
 [Rhpt]
-Tip=Priest Adept Training (|cffffcc00|r),Priest Master Training (|cffffcc00|r) (|cffffcc00|r)
+Tip=Priest Adept Training (|cffffcc00T|r),Priest Master Training (|cffffcc00T|r) (|cffffcc00T|r)
+Hotkey=T,T
 
 //sorceress training upgrade
 [Rhst]
-Tip=Sorceress Adept Training (|cffffcc00|r),Sorceress Master Training (|cffffcc00|r) (|cffffcc00|r)
+Tip=Sorceress Adept Training (|cffffcc00O|r),Sorceress Master Training (|cffffcc00O|r) (|cffffcc00O|r)
+Hotkey=O,O
 
 //long rifles upgrade
 [Rhri]
@@ -776,15 +784,18 @@ Hotkey=R
 
 //orc melee weapon upgrades
 [Rome]
-Tip=Upgrade to Steel Melee Weapons (|cffffcc00|r),Upgrade to Thorium Melee Weapons (|cffffcc00|r),Upgrade to Arcanite Melee Weapons (|cffffcc00|r)
+Tip=Upgrade to Steel Melee Weapons (|cffffcc00M|r),Upgrade to Thorium Melee Weapons (|cffffcc00M|r),Upgrade to Arcanite Melee Weapons (|cffffcc00M|r)
+Hotkey=M,M,M
 
 //orc ranged weapon upgrades
 [Rora]
-Tip=Upgrade to Steel Ranged Weapons (|cffffcc00|r),Upgrade to Thorium Ranged Weapons (|cffffcc00|r),Upgrade to Arcanite Ranged Weapons (|cffffcc00|r)
+Tip=Upgrade to Steel Ranged Weapons (|cffffcc00R|r),Upgrade to Thorium Ranged Weapons (|cffffcc00R|r),Upgrade to Arcanite Ranged Weapons (|cffffcc00R|r)
+Hotkey=R,R,R
 
 //orc armor upgrades
 [Roar]
-Tip=Upgrade to Steel Unit Armor (|cffffcc00|r),Upgrade to Thorium Unit Armor (|cffffcc00|r),Upgrade to Arcanite Unit Armor (|cffffcc00|r)
+Tip=Upgrade to Steel Unit Armor (|cffffcc00A|r),Upgrade to Thorium Unit Armor (|cffffcc00A|r),Upgrade to Arcanite Unit Armor (|cffffcc00A|r)
+Hotkey=A,A,A
 
 //war drums upgrade
 [Rwdm]
@@ -818,15 +829,18 @@ Hotkey=E
 
 //witch doctor training upgrade
 [Rowd]
-Tip=Witch Doctor Adept Training (|cffffcc00|r),Witch Doctor Master Training (|cffffcc00|r) (|cffffcc00|r)
+Tip=Witch Doctor Adept Training (|cffffcc00D|r),Witch Doctor Master Training (|cffffcc00D|r) (|cffffcc00D|r)
+Hotkey=D,D
 
 //shaman training upgrade
 [Rost]
-Tip=Shaman Adept Training (|cffffcc00|r),Shaman Master Training (|cffffcc00|r) (|cffffcc00|r)
+Tip=Shaman Adept Training (|cffffcc00M|r),Shaman Master Training (|cffffcc00M|r) (|cffffcc00M|r)
+Hotkey=M,M
 
 //spided barricades upgrade
 [Rosp]
-Tip=Upgrade to Spiked Barricades (|cffffcc00|r),Upgrade to Improved Spiked Barricades (|cffffcc00|r),Upgrade to Advanced Spiked Barricades (|cffffcc00|r)
+Tip=Upgrade to Spiked Barricades (|cffffcc00S|r),Upgrade to Improved Spiked Barricades (|cffffcc00S|r),Upgrade to Advanced Spiked Barricades (|cffffcc00S|r)
+Hotkey=S,S,S
 
 //troll regeneration upgrade
 [Rotr]
@@ -845,7 +859,8 @@ Hotkey=B
 
 //spirit walker training upgrade
 [Rowt]
-Tip=Spirit Walker Adept Training (|cffffcc00|r),Spirit Walker Master Training (|cffffcc00|r) (|cffffcc00|r)
+Tip=Spirit Walker Adept Training (|cffffcc00R|r),Spirit Walker Master Training (|cffffcc00R|r) (|cffffcc00R|r)
+Hotkey=R,R
 
 //troll berserker upgrade
 [Robk]
@@ -1258,19 +1273,23 @@ Unhotkey=E
 
 //strength of the moon upgrades
 [Resm]
-Tip=Upgrade to Strength of the Moon (|cffffcc00|r),Upgrade to Improved Strength of the Moon (|cffffcc00|r),Upgrade to Advanced Strength of the Moon (|cffffcc00|r)
+Tip=Upgrade to Strength of the Moon (|cffffcc00M|r),Upgrade to Improved Strength of the Moon (|cffffcc00M|r),Upgrade to Advanced Strength of the Moon (|cffffcc00M|r)
+Hotkey=M,M,M
 
 //strength of the wild upgrades
 [Resw]
-Tip=Upgrade to Strength of the Wild (|cffffcc00|r),Upgrade to Improved Strength of the Wild (|cffffcc00|r),Upgrade to Advanced Strength of the Wild (|cffffcc00|r)
+Tip=Upgrade to Strength of the Wild (|cffffcc00W|r),Upgrade to Improved Strength of the Wild (|cffffcc00W|r),Upgrade to Advanced Strength of the Wild (|cffffcc00W|r)
+Hotkey=W,W,W
 
 //moon armor upgrades
 [Rema]
-Tip=Upgrade to Moon Armor (|cffffcc00|r),Upgrade to Improved Moon Armor (|cffffcc00|r),Upgrade to Advanced Moon Armor (|cffffcc00|r)
+Tip=Upgrade to Moon Armor (|cffffcc00A|r),Upgrade to Improved Moon Armor (|cffffcc00A|r),Upgrade to Advanced Moon Armor (|cffffcc00A|r)
+Hotkey=A,A,A
 
 //reinforced hide upgrades
 [Rerh]
-Tip=Upgrade to Reinforced Hides (|cffffcc00|r),Upgrade to Improved Reinforced Hides (|cffffcc00|r),Upgrade to Advanced Reinforced Hides (|cffffcc00|r)
+Tip=Upgrade to Reinforced Hides (|cffffcc00R|r),Upgrade to Improved Reinforced Hides (|cffffcc00R|r),Upgrade to Advanced Reinforced Hides (|cffffcc00R|r)
+Hotkey=R,R,R
 
 //ultravision
 [Reuv]
@@ -1303,11 +1322,13 @@ Hotkey=G
 
 //druid of the talon training upgrade
 [Redt]
-Tip=Druid of the Talon Adept Training (|cffffcc00|r),Druid of the Talon Master Training (|cffffcc00|r) (|cffffcc00|r)
+Tip=Druid of the Talon Adept Training (|cffffcc00A|r),Druid of the Talon Master Training (|cffffcc00A|r) (|cffffcc00A|r)
+Hotkey=A,A
 
 //druid of the claw training upgrade
 [Redc]
-Tip=Druid of the Claw Adept Training (|cffffcc00|r),Druid of the Claw Master Training (|cffffcc00|r) (|cffffcc00|r)
+Tip=Druid of the Claw Adept Training (|cffffcc00L|r),Druid of the Claw Master Training (|cffffcc00L|r) (|cffffcc00L|r)
+Hotkey=L,L
 
 //abolish magic upgrade
 [Resi]
@@ -1811,19 +1832,23 @@ Hotkey=T
 
 //unholy strength upgrades
 [Rume]
-Tip=Upgrade to Unholy Strength (|cffffcc00|r),Upgrade to Improved Unholy Strength (|cffffcc00|r),Upgrade to Advanced Unholy Strength (|cffffcc00|r)
+Tip=Upgrade to Unholy Strength (|cffffcc00S|r),Upgrade to Improved Unholy Strength (|cffffcc00S|r),Upgrade to Advanced Unholy Strength (|cffffcc00S|r)
+Hotkey=S,S,S
 
 //creature attack upgrades
 [Rura]
-Tip=Upgrade to Creature Attack (|cffffcc00|r),Upgrade to Improved Creature Attack (|cffffcc00|r),Upgrade to Advanced Creature Attack (|cffffcc00|r)
+Tip=Upgrade to Creature Attack (|cffffcc00A|r),Upgrade to Improved Creature Attack (|cffffcc00A|r),Upgrade to Advanced Creature Attack (|cffffcc00A|r)
+Hotkey=A,A,A
 
 //unholy armor upgrades
 [Ruar]
-Tip=Upgrade to Unholy Armor (|cffffcc00|r),Upgrade to Improved Unholy Armor (|cffffcc00|r),Upgrade to Advanced Unholy Armor (|cffffcc00|r)
+Tip=Upgrade to Unholy Armor (|cffffcc00U|r),Upgrade to Improved Unholy Armor (|cffffcc00U|r),Upgrade to Advanced Unholy Armor (|cffffcc00U|r)
+Hotkey=U,U,U
 
 //creature carapace upgrades
 [Rucr]
-Tip=Upgrade to Creature Carapace (|cffffcc00|r),Upgrade to Improved Creature Carapace (|cffffcc00|r),Upgrade to Advanced Creature Carapace (|cffffcc00|r)
+Tip=Upgrade to Creature Carapace (|cffffcc00C|r),Upgrade to Improved Creature Carapace (|cffffcc00C|r),Upgrade to Advanced Creature Carapace (|cffffcc00C|r)
+Hotkey=C,C,C
 
 //cannabalize upgrade
 [Ruac]
@@ -1847,11 +1872,13 @@ Hotkey=S
 
 //necromancer training upgrades
 [Rune]
-Tip=Necromancer Adept Training (|cffffcc00|r),Necromancer Master Training (|cffffcc00|r) (|cffffcc00|r)
+Tip=Necromancer Adept Training (|cffffcc00E|r),Necromancer Master Training (|cffffcc00E|r) (|cffffcc00E|r)
+Hotkey=E,E
 
 //banshee training upgrades
 [Ruba]
-Tip=Banshee Adept Training (|cffffcc00|r),Banshee Master Training (|cffffcc00|r) (|cffffcc00|r)
+Tip=Banshee Adept Training (|cffffcc00A|r),Banshee Master Training (|cffffcc00A|r) (|cffffcc00A|r)
+Hotkey=A,A
 
 //freezing breath upgrade
 [Rufb]
@@ -2473,38 +2500,30 @@ Researchhotkey=B
 // Demolish
 [ANde]
 Tip=Demolish (|cffffcc00|r)
-Hotkey=
 
 // Demolish
 [ANd1]
 Tip=Demolish - Upgrade Level 1 (|cffffcc00|r)
-Hotkey=
 
 // Demolish
 [ANd2]
 Tip=Demolish - Upgrade Level 2 (|cffffcc00|r)
-Hotkey=
 
 // Demolish
 [ANd3]
 Tip=Demolish - Upgrade Level 3 (|cffffcc00|r)
-Hotkey=
 
 [ANfy]
 Tip=Factory (|cffffcc00|r)
-Hotkey=
 
 [ANf1]
 Tip=Factory - Upgrade Level 1 (|cffffcc00|r)
-Hotkey=
 
 [ANf2]
 Tip=Factory - Upgrade Level 2 (|cffffcc00|r)
-Hotkey=
 
 [ANf3]
 Tip=Factory - Upgrade Level 3 (|cffffcc00|r)
-Hotkey=
 
 // Kaboom! (Clockwerk goblin level 1)
 [Asdg]
