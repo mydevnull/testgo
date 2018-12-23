@@ -1,9 +1,10 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
+	"os"
 	"regexp"
-	"strings"
 )
 
 type action int
@@ -251,7 +252,17 @@ func main() {
 
 	current := Group{}
 
-	for _, line := range strings.Split(original, "\n") {
+	f, err := os.Open("CustomKeys.txt")
+	if err != nil {
+		panic(err)
+	}
+	defer f.Close()
+
+	scanner := bufio.NewScanner(f)
+
+	for scanner.Scan() {
+		line := scanner.Text()
+
 	innerloop:
 		for _, e := range expressions {
 			switch e.matches(line) {
@@ -274,4 +285,8 @@ func main() {
 
 	current.Adjust(expressions)
 	current.Print()
+
+	if err := scanner.Err(); err != nil {
+		panic(err)
+	}
 }
