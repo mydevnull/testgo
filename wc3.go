@@ -98,6 +98,10 @@ func NewExpressions() []Expression {
 		action: hotkey,
 		regex:  regexp.MustCompile(`^Hotkey=(?P<hotkey>\w+)(,\w+){0,2}[ \t]*$`),
 	})
+	expressions = append(expressions, Expression{ // researchhotkey
+		action: hotkey,
+		regex:  regexp.MustCompile(`^Researchhotkey=(?P<hotkey>\w+)(,\w+){0,2}[ \t]*$`),
+	})
 	expressions = append(expressions, Expression{ // comment
 		action: keep,
 		regex:  regexp.MustCompile(`^\/\/.*$`),
@@ -110,10 +114,6 @@ func NewExpressions() []Expression {
 	expressions = append(expressions, Expression{ // unhotkey
 		action: overwrite,
 		regex:  regexp.MustCompile(`^(?P<name>Unhotkey=)(?P<hotkey>[\w \!\.]*)$`),
-	})
-	expressions = append(expressions, Expression{ // researchhotkey
-		action: overwrite,
-		regex:  regexp.MustCompile(`^(?P<name>Researchhotkey=)(?P<hotkey>[\w \!\.]*)$`),
 	})
 
 	expressions = append(expressions, Expression{ // Awakentip=tip (E)
