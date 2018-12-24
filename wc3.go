@@ -58,6 +58,10 @@ func (e Expression) extract(line string) string {
 // replace returns a string modified according to the regex and the action
 func (e Expression) replace(line string, key string) string {
 
+	if key == "" {
+		return line
+	}
+
 	switch e.action {
 
 	case keep:
