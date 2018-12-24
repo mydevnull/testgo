@@ -92,11 +92,15 @@ func NewExpressions() []Expression {
 
 	expressions = append(expressions, Expression{ // command
 		action: command,
-		regex:  regexp.MustCompile(`^[ \t]*\[[\w]*\][ \t]*$`),
+		regex:  regexp.MustCompile(`^\[[\w]*\][ \t]*$`),
 	})
 	expressions = append(expressions, Expression{ // hotkey
 		action: hotkey,
-		regex:  regexp.MustCompile(`^Hotkey=(?P<hotkey>\w+)(,\w+){0,2}$`),
+		regex:  regexp.MustCompile(`^Hotkey=(?P<hotkey>\w+)(,\w+){0,2}[ \t]*$`),
+	})
+	expressions = append(expressions, Expression{ // researchhotkey
+		action: hotkey,
+		regex:  regexp.MustCompile(`^Researchhotkey=(?P<hotkey>\w+)(,\w+){0,2}[ \t]*$`),
 	})
 	expressions = append(expressions, Expression{ // comment
 		action: keep,
@@ -110,10 +114,6 @@ func NewExpressions() []Expression {
 	expressions = append(expressions, Expression{ // unhotkey
 		action: overwrite,
 		regex:  regexp.MustCompile(`^(?P<name>Unhotkey=)(?P<hotkey>[\w \!\.]*)$`),
-	})
-	expressions = append(expressions, Expression{ // researchhotkey
-		action: overwrite,
-		regex:  regexp.MustCompile(`^(?P<name>Researchhotkey=)(?P<hotkey>[\w \!\.]*)$`),
 	})
 
 	expressions = append(expressions, Expression{ // Awakentip=tip (E)
@@ -131,7 +131,7 @@ func NewExpressions() []Expression {
 
 	expressions = append(expressions, Expression{ // Researchtip=t(i)p [Level %d]
 		action: replaceOne,
-		regex:  regexp.MustCompile(`^(?P<name>Researchtip=)"?(?P<p1>[\w \-\!\.]*)\|cffffcc00(?P<key>\w)\|r(?P<p2>[\w \-\!\.]*)(?P<l1> - \[\|cffffcc00Level %d\|r\])"?$`),
+		regex:  regexp.MustCompile(`^(?P<name>Researchtip=)"?(?P<p1>[\w \-\!\.]*)\|cffffcc00(?P<key>\w)\|r(?P<p2>[\w \-\!\.]*)(?P<l1> - \[\|cffffcc00Level %d\|r\])"?[ \t]*$`),
 	})
 	expressions = append(expressions, Expression{ // Researchtip=tip (E)
 		action: keep,
@@ -181,7 +181,7 @@ func NewExpressions() []Expression {
 		regex: regexp.MustCompile(`^(?P<name>Tip=)"?` +
 			`(?P<p1>[\w \-\!\.]*)\|cffffcc00(?P<key1>\w)\|r(?P<p2>[\w \-\!\.]*)(?P<l1> - \[\|cffffcc00Level 1\|r\],)` +
 			`(?P<p3>[\w \-\!\.]*)\|cffffcc00(?P<key2>\w)\|r(?P<p4>[\w \-\!\.]*)(?P<l2> - \[\|cffffcc00Level 2\|r\],)` +
-			`(?P<p5>[\w \-\!\.]*)\|cffffcc00(?P<key3>\w)\|r(?P<p6>[\w \-\!\.]*)(?P<l3> - \[\|cffffcc00Level 3\|r\])"?$`),
+			`(?P<p5>[\w \-\!\.]*)\|cffffcc00(?P<key3>\w)\|r(?P<p6>[\w \-\!\.]*)(?P<l3> - \[\|cffffcc00Level 3\|r\])"?[ \t]*$`),
 	})
 	expressions = append(expressions, Expression{ // Tip=t(i)p1,t(i)p2,t(i)p3
 		action: replaceThree,
@@ -195,7 +195,7 @@ func NewExpressions() []Expression {
 		action: replaceTwo,
 		regex: regexp.MustCompile(`^(?P<name>Tip=)"?` +
 			`(?P<p1>[\w \-\!\.]*)\|cffffcc00(?P<key1>\w)\|r(?P<p2>[\w \-\!\.]*)(?P<l1> - \[\|cffffcc00Level 1\|r\],)` +
-			`(?P<p5>[\w \-\!\.]*)\|cffffcc00(?P<key3>\w)\|r(?P<p6>[\w \-\!\.]*)(?P<l3> - \[\|cffffcc00Level 2\|r\])"?$`),
+			`(?P<p5>[\w \-\!\.]*)\|cffffcc00(?P<key3>\w)\|r(?P<p6>[\w \-\!\.]*)(?P<l3> - \[\|cffffcc00Level 2\|r\])"?[ \t]*$`),
 	})
 	expressions = append(expressions, Expression{ // Tip=t(i)p1,t(i)p2
 		action: replaceTwo,
@@ -271,10 +271,12 @@ func main() {
 				current.Adjust(expressions)
 				current.Print()
 				current = Group{Lines: []string{line}}
+				break innerloop
 
 			case matchHotkey:
 				current.Lines = append(current.Lines, line)
 				current.Hotkey = e.extract(line)
+				break innerloop
 
 			case matchTrue:
 				current.Lines = append(current.Lines, line)
