@@ -546,9 +546,8 @@ Researchhotkey=W
 
 // Brilliance Aura
 [AHab]
-Tip=B|cffffcc00r|rilliance Aura - [|cffffcc00Level 1|r],B|cffffcc00r|rilliance Aura - [|cffffcc00Level 2|r],B|cffffcc00r|rilliance Aura - [|cffffcc00Level 3|r]
+Tip=Brilliance Aura - [|cffffcc00Level 1|r],Brilliance Aura - [|cffffcc00Level 2|r],Brilliance Aura - [|cffffcc00Level 3|r]
 Researchtip="Learn B|cffffcc00r|rilliance Aura - [|cffffcc00Level %d|r]"
-Hotkey=R
 Researchhotkey=R
 
 // Mass Teleport
