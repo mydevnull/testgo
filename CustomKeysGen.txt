@@ -546,8 +546,8 @@ Researchhotkey=W
 
 // Brilliance Aura
 [AHab]
-Researchtip=Learn Brilliance Aura (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Brilliance Aura (|cffffcc00R|r) - [|cffffcc00Level %d|r]
+Researchhotkey=R
 
 // Mass Teleport
 [AHmt]
@@ -579,8 +579,8 @@ Researchhotkey=C
 
 // Bash
 [AHbh]
-Researchtip=Learn Bash (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Bash (|cffffcc00B|r) - [|cffffcc00Level %d|r]
+Researchhotkey=B
 
 // Avatar
 [AHav]
@@ -616,8 +616,8 @@ Researchhotkey=D
 
 // Devotion Aura
 [AHad]
-Researchtip=Learn Devotion Aura (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Devotion Aura (|cffffcc00V|r) - [|cffffcc00Level %d|r]
+Researchhotkey=V
 
 // Resurrection
 [AHre]
@@ -976,8 +976,8 @@ Researchhotkey=W
 
 // Critical Strike
 [AOcr]
-Researchtip=Learn Critical Strike (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Critical Strike (|cffffcc00C|r) - [|cffffcc00Level %d|r]
+Researchhotkey=C
 
 // Mirror Image
 [AOmi]
@@ -1076,8 +1076,8 @@ Researchhotkey=W
 
 // Endurance Aura
 [AOae]
-Researchtip=Learn Endurance Aura (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Endurance Aura (|cffffcc00E|r) - [|cffffcc00Level %d|r]
+Researchhotkey=E
 
 // War Stomp (Chieftan)
 [AOws]
@@ -1087,9 +1087,9 @@ Researchhotkey=T
 
 // Reincarnation
 [AOre]
-Tip=Reincarnation (|cffffcc00|r)
-Researchtip=Learn Reincarnation (|cffffcc00|r)
-Researchhotkey=
+Tip=Reincarnation (|cffffcc00R|r)
+Researchtip=Learn Reincarnation (|cffffcc00R|r)
+Researchhotkey=R
 
 
 /////////////////////////////
@@ -1514,8 +1514,8 @@ Researchhotkey=L
 
 // Evasion
 [AEev]
-Researchtip=Learn Evasion (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Evasion (|cffffcc00E|r) - [|cffffcc00Level %d|r]
+Researchhotkey=E
 
 // Metamorphosis
 [AEme]
@@ -1547,8 +1547,8 @@ Researchhotkey=F
 
 // Thorns Aura
 [AEah]
-Researchtip=Learn Thorns Aura (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Thorns Aura (|cffffcc00R|r) - [|cffffcc00Level %d|r]
+Researchhotkey=R
 
 // Tranquility
 [AEtq]
@@ -1582,8 +1582,8 @@ Researchhotkey=R
 
 // Trueshot Aura
 [AEar]
-Researchtip=Learn Trueshot Aura (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Trueshot Aura (|cffffcc00T|r) - [|cffffcc00Level %d|r]
+Researchhotkey=T
 
 // Starfall
 [AEsf]
@@ -2019,8 +2019,8 @@ Researchhotkey=E
 
 //spiked carapace
 [AUts]
-Researchtip=Learn Spiked Carapace (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Spiked Carapace (|cffffcc00S|r) - [|cffffcc00Level %d|r]
+Researchhotkey=S
 
 // Carrion Beetles
 [AUcb]
@@ -2066,8 +2066,8 @@ Researchhotkey=C
 
 // Unholy Aura
 [AUau]
-Researchtip=Learn Unholy Aura (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Unholy Aura (|cffffcc00U|r) - [|cffffcc00Level %d|r]
+Researchhotkey=U
 
 // Death Pact
 [AUdp]
@@ -2106,8 +2106,8 @@ Researchhotkey=E
 
 // Vampiric Aura
 [AUav]
-Researchtip=Learn Vampiric Aura (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Vampiric Aura (|cffffcc00V|r) - [|cffffcc00Level %d|r]
+Researchhotkey=V
 
 //inferno
 [AUin]
@@ -2228,8 +2228,8 @@ Researchhotkey=F
 
 // Cleaving Attack (Pit Lord)
 [ANca]
-Researchtip=Learn Cleaving Attack (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Cleaving Attack (|cffffcc00C|r) - [|cffffcc00Level %d|r]
+Researchhotkey=C
 
 // Doom (Pit Lord)
 [ANdo]
@@ -2259,8 +2259,8 @@ Researchhotkey=F
 
 // Drunken Brawler (Pandaren Brewmaster)
 [ANdb]
-Researchtip=Learn Drunken Brawler (|cffffcc00|r) - [|cffffcc00Level %d|r]
-Researchhotkey=
+Researchtip=Learn Drunken Brawler (|cffffcc00B|r) - [|cffffcc00Level %d|r]
+Researchhotkey=B
 
 // Drunken Haze (Pandaren Brewmaster)
 [ANdh]
