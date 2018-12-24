@@ -539,6 +539,7 @@ Researchhotkey=B
 
 // Summon Water Elemental
 [AHwe]
+Tip=Summon Water Elemental (|cffffcc00W|r) - [|cffffcc00Level 1|r],Summon Water Elemental (|cffffcc00W|r) - [|cffffcc00Level 2|r],Summon Water Elemental (|cffffcc00W|r) - [|cffffcc00Level 3|r]
 Researchtip=Learn Summon Water Elemental (|cffffcc00W|r) - [|cffffcc00Level %d|r]
 Hotkey=W
 Researchhotkey=W
