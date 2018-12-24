@@ -263,6 +263,8 @@ func main() {
 	for scanner.Scan() {
 		line := scanner.Text()
 
+		matched := false
+
 	innerloop:
 		for _, e := range expressions {
 			switch e.matches(line) {
@@ -271,17 +273,24 @@ func main() {
 				current.Adjust(expressions)
 				current.Print()
 				current = Group{Lines: []string{line}}
+				matched = true
 				break innerloop
 
 			case matchHotkey:
 				current.Lines = append(current.Lines, line)
 				current.Hotkey = e.extract(line)
+				matched = true
 				break innerloop
 
-			case matchTrue, matchFalse:
+			case matchTrue:
 				current.Lines = append(current.Lines, line)
+				matched = true
 				break innerloop
 			}
+		}
+
+		if !matched {
+			current.Lines = append(current.Lines, line)
 		}
 	}
 
