@@ -271,10 +271,12 @@ func main() {
 				current.Adjust(expressions)
 				current.Print()
 				current = Group{Lines: []string{line}}
+				break innerloop
 
 			case matchHotkey:
 				current.Lines = append(current.Lines, line)
 				current.Hotkey = e.extract(line)
+				break innerloop
 
 			case matchTrue:
 				current.Lines = append(current.Lines, line)
