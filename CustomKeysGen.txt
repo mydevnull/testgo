@@ -2538,38 +2538,38 @@ Researchhotkey=B
 
 // Demolish
 [ANde]
-Tip=Demolish (|cffffcc00|r)
+Tip="Demolish"
 Hotkey=
 
 // Demolish
 [ANd1]
-Tip=Demolish - Upgrade Level 1 (|cffffcc00|r)
+Tip="Demolish - Upgrade Level 1"
 Hotkey=
 
 // Demolish
 [ANd2]
-Tip=Demolish - Upgrade Level 2 (|cffffcc00|r)
+Tip="Demolish - Upgrade Level 2"
 Hotkey=
 
 // Demolish
 [ANd3]
-Tip=Demolish - Upgrade Level 3 (|cffffcc00|r)
+Tip="Demolish - Upgrade Level 3"
 Hotkey=
 
 [ANfy]
-Tip=Factory (|cffffcc00|r)
+Tip="Factory"
 Hotkey=
 
 [ANf1]
-Tip=Factory - Upgrade Level 1 (|cffffcc00|r)
+Tip="Factory - Upgrade Level 1"
 Hotkey=
 
 [ANf2]
-Tip=Factory - Upgrade Level 2 (|cffffcc00|r)
+Tip="Factory - Upgrade Level 2"
 Hotkey=
 
 [ANf3]
-Tip=Factory - Upgrade Level 3 (|cffffcc00|r)
+Tip="Factory - Upgrade Level 3"
 Hotkey=
 
 // Kaboom! (Clockwerk goblin level 1)
