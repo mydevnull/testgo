@@ -278,7 +278,7 @@ func main() {
 				current.Hotkey = e.extract(line)
 				break innerloop
 
-			case matchTrue:
+			case matchTrue, matchFalse:
 				current.Lines = append(current.Lines, line)
 				break innerloop
 			}
