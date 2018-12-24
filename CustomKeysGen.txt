@@ -546,8 +546,9 @@ Researchhotkey=W
 
 // Brilliance Aura
 [AHab]
-Tip=Brilliance Aura - [|cffffcc00Level 1|r],Brilliance Aura - [|cffffcc00Level 2|r],Brilliance Aura - [|cffffcc00Level 3|r]
+Tip=B|cffffcc00r|rilliance Aura - [|cffffcc00Level 1|r],B|cffffcc00r|rilliance Aura - [|cffffcc00Level 2|r],B|cffffcc00r|rilliance Aura - [|cffffcc00Level 3|r]
 Researchtip="Learn B|cffffcc00r|rilliance Aura - [|cffffcc00Level %d|r]"
+Hotkey=R
 Researchhotkey=R
 
 // Mass Teleport
@@ -624,7 +625,8 @@ Researchhotkey=V
 
 // Resurrection
 [AHre]
-Tip=|cffffcc00R|resurrectionHotkey=R
+Tip=|cffffcc00R|resurrection
+Hotkey=R
 Researchtip=Learn |cffffcc00R|resurrection
 Researchhotkey=R
 
