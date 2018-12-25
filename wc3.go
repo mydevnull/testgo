@@ -70,7 +70,7 @@ func (e Expression) replace(line string, key string) string {
 	case command:
 		return line
 
-	case hotkey:
+	case hotkey, hotkey2:
 		return fmt.Sprintf("%s%s", e.regex.ReplaceAllString(line, "$1"), key)
 
 	case replaceOne:
