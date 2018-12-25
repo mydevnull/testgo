@@ -1657,8 +1657,8 @@ Untip="|cffc3dbffRight-click to activate auto-casting."
 
 //acolyte
 [uaco]
-Tip=Train Acolyte (|cffffcc00C|r)
-Hotkey=C
+Tip=Train Acolyte (|cffffcc00E|r)
+Hotkey=E
 
 // Unsummon
 [Auns]
@@ -1681,50 +1681,50 @@ Unhotkey=R
 
 //abomination
 [uabo]
-Tip=Train Abomination (|cffffcc00A|r)
-Hotkey=A
+Tip=Train Abomination (|cffffcc00W|r)
+Hotkey=W
 
 // Cannibalize (abomination)
 [Acn2]
-Tip=Cannibalize (|cffffcc00C|r)
-Hotkey=C
+Tip=Cannibalize (|cffffcc00E|r)
+Hotkey=E
 
 //banshee
 [uban]
-Tip=Train Banshee (|cffffcc00B|r)
-Hotkey=B
+Tip=Train Banshee (|cffffcc00W|r)
+Hotkey=W
 
 // Curse
 [Acrs]
-Tip=Curse (|cffffcc00C|r)
+Tip=Curse (|cffffcc00Q|r)
 Untip="|cffc3dbffRight-click to activate auto-casting."
-Hotkey=C
-Unhotkey=C
+Hotkey=Q
+Unhotkey=Q
 
 // Anti-magic Shell
 [Aams]
-Tip=Anti-magic Shell (|cffffcc00N|r)
-Hotkey=N
+Tip=Anti-magic Shell (|cffffcc00W|r)
+Hotkey=W
 
 // Anti-magic Shell
 [Aam2]
-Tip=Anti-magic Shell (|cffffcc00N|r)
-Hotkey=N
+Tip=Anti-magic Shell (|cffffcc00W|r)
+Hotkey=W
 
 // Possession
 [Apos]
-Tip=Possession (|cffffcc00O|r)
-Hotkey=O
+Tip=Possession (|cffffcc00E|r)
+Hotkey=E
 
 // Possession
 [Aps2]
-Tip=Possession (|cffffcc00O|r)
-Hotkey=O
+Tip=Possession (|cffffcc00E|r)
+Hotkey=E
 
 //crypt fiend
 [ucry]
-Tip=Train Crypt Fiend (|cffffcc00F|r)
-Hotkey=F
+Tip=Train Crypt Fiend (|cffffcc00E|r)
+Hotkey=E
 
 // Web
 [Aweb]
@@ -1735,118 +1735,118 @@ Unhotkey=W
 
 // Burrow (crypt fiend)
 [Abur]
-Tip=Burrow (|cffffcc00B|r)
-Untip=Unburrow (|cffffcc00B|r)
-Hotkey=B
-Unhotkey=B
+Tip=Burrow (|cffffcc00E|r)
+Untip=Unburrow (|cffffcc00E|r)
+Hotkey=E
+Unhotkey=E
 
 //frost wyrm
 [ufro]
-Tip=Train Frost Wyrm (|cffffcc00F|r)
-Hotkey=F
+Tip=Train Frost Wyrm (|cffffcc00E|r)
+Hotkey=E
 
 //gargoyle
 [ugar]
-Tip=Train Gargoyle (|cffffcc00A|r)
-Hotkey=A
+Tip=Train Gargoyle (|cffffcc00Q|r)
+Hotkey=Q
 
 // Stone Form
 [Astn]
-Tip=Stone Form (|cffffcc00F|r)
-Hotkey=F
-Untip=Gargoyle Form (|cffffcc00F|r)
-Unhotkey=F
+Tip=Stone Form (|cffffcc00E|r)
+Hotkey=E
+Untip=Gargoyle Form (|cffffcc00E|r)
+Unhotkey=E
 
 //ghoul
 [ugho]
-Tip=Train Ghoul (|cffffcc00G|r)
-Hotkey=G
+Tip=Train Ghoul (|cffffcc00W|r)
+Hotkey=W
 
 // Cannibalize (ghoul)
 [Acan]
-Tip=Cannibalize (|cffffcc00C|r)
-Hotkey=C
+Tip=Cannibalize (|cffffcc00E|r)
+Hotkey=E
 
 //necromancer
 [unec]
-Tip=Train Necromancer (|cffffcc00N|r)
-Hotkey=N
+Tip=Train Necromancer (|cffffcc00E|r)
+Hotkey=E
 
 // Raise Dead
 [Arai]
-Tip=Raise Dead (|cffffcc00R|r)
+Tip=Raise Dead (|cffffcc00Q|r)
 Untip="|cffc3dbffRight-click to activate auto-casting."
-Hotkey=R
-Unhotkey=R
+Hotkey=Q
+Unhotkey=Q
 
 // Unholy Frenzy
 [Auhf]
-Tip=Unholy Frenzy (|cffffcc00U|r)
-Hotkey=U
+Tip=Unholy Frenzy (|cffffcc00W|r)
+Hotkey=W
 
 // Cripple
 [Acri]
-Tip=Cripple (|cffffcc00C|r)
-Hotkey=C
+Tip=Cripple (|cffffcc00E|r)
+Hotkey=E
 
 //meat wagon
 [umtw]
-Tip=Train Meat Wagon (|cffffcc00M|r)
-Hotkey=M
+Tip=Train Meat Wagon (|cffffcc00Q|r)
+Hotkey=Q
 
 // Load Corpse
 [Amel]
-Tip=Get Corpse (|cffffcc00C|r)
+Tip=Get Corpse (|cffffcc00E|r)
 Untip="|cffc3dbffRight-click to activate auto-casting."
-Hotkey=C
-Unhotkey=C
+Hotkey=E
+Unhotkey=E
 
 // Unload Corpse
 [Amed]
-Tip=Drop All Corpses (|cffffcc00D|r)
-Hotkey=D
+Tip=Drop All Corpses (|cffffcc00W|r)
+Hotkey=W
 
 //obsidian statue
 [uobs]
-Tip=Create Obsidian Statue (|cffffcc00O|r)
-Hotkey=O
+Tip=Create Obsidian Statue (|cffffcc00E|r)
+Hotkey=E
 
 // Spirit Touch 
 [Arpm]
-Tip=Spirit Touch (|cffffcc00C|r)
+Tip=Spirit Touch (|cffffcc00W|r)
 Untip="|cffc3dbff|cffc3dbffRight-click to activate auto-casting.|r|r"
-Hotkey=C
-Unhotkey=C
+Hotkey=W
+Unhotkey=W
 
 // Essence of Blight
 [Arpl]
-Tip=Essence of Blight (|cffffcc00B|r)
+Tip=Essence of Blight (|cffffcc00E|r)
 Untip="|cffc3dbff|cffc3dbffRight-click to activate auto-casting.|r|r"
-Hotkey=B
-Unhotkey=B
+Hotkey=E
+Unhotkey=E
 
 //destroyer
 [ubsp]
-Tip=Morph into Destroyer (|cffffcc00T|r)
-Hotkey=T
+Tip=Morph into Destroyer (|cffffcc00Q|r)
+Hotkey=Q
 
 // Orb of Annihilation
 [Afak]
-Tip=Orb of Annihilation (|cffffcc00O|r)
+Tip=Orb of Annihilation (|cffffcc00Q|r)
 Untip="|cffc3dbff|cffc3dbffRight-click to activate auto-casting.|r|r"
-Hotkey=O
-Unhotkey=O
+Hotkey=Q
+Unhotkey=Q
 
 // Devour Magic
 [Advm]
-Tip=Devour Magic (|cffffcc00D|r)
-Hotkey=D
+Tip=Devour Magic (|cffffcc00E|r)
+Hotkey=E
 
 
 // Absorb Mana
 [Aabs]
-Tip=Absorb Mana (|cffffcc00B|r)
-Hotkey=B
+Tip=Absorb Mana (|cffffcc00W|r)
+Hotkey=W
 
 
 /////////////////////////////
@@ -1890,8 +1890,8 @@ Hotkey=Z
 
 //web upgrade
 [Ruwb]
-Tip=Research Web (|cffffcc00W|r)
-Hotkey=W
+Tip=Research Web (|cffffcc00K|r)
+Hotkey=K
 
 //stone form upgrade
 [Rusf]
@@ -1900,8 +1900,8 @@ Hotkey=S
 
 //necromancer training upgrades
 [Rune]
-Tip=Necromancer Adept Training (|cffffcc00E|r),Necromancer Master Training (|cffffcc00E|r)
-Hotkey=E,E
+Tip=Necromancer Adept Training (|cffffcc00K|r),Necromancer Master Training (|cffffcc00K|r)
+Hotkey=K,K
 
 //banshee training upgrades
 [Ruba]
@@ -1935,8 +1935,8 @@ Hotkey=B
 
 //exhume corpses upgrade
 [Ruex]
-Tip=Research Exhume Corpses (|cffffcc00E|r)
-Hotkey=E
+Tip=Research Exhume Corpses (|cffffcc00K|r)
+Hotkey=K
 
 //backpack upgrade
 [Rupm]
@@ -1971,8 +1971,8 @@ Hotkey=V
 
 //altar of darkness
 [uaod]
-Tip=Summon Altar of Darkness (|cffffcc00A|r)
-Hotkey=A
+Tip=Summon Altar of Darkness (|cffffcc00E|r)
+Hotkey=E
 
 //necropolis
 [unpl]
@@ -1991,8 +1991,8 @@ Hotkey=U
 
 //crypt
 [usep]
-Tip=Summon Crypt (|cffffcc00C|r)
-Hotkey=C
+Tip=Summon Crypt (|cffffcc00Q|r)
+Hotkey=Q
 
 //temple of the damned
 [utod]
@@ -2011,18 +2011,18 @@ Hotkey=G
 
 //ziggurat
 [uzig]
-Tip=Summon Ziggurat (|cffffcc00Z|r)
-Hotkey=Z
+Tip=Summon Ziggurat (|cffffcc00W|r)
+Hotkey=W
 
 //spirit tower
 [uzg1]
-Tip=Upgrade to Spirit Tower (|cffffcc00T|r)
-Hotkey=T
+Tip=Upgrade to Spirit Tower (|cffffcc00E|r)
+Hotkey=E
 
 //nerubian tower
 [uzg2]
-Tip=Upgrade to Nerubian Tower (|cffffcc00N|r)
-Hotkey=N
+Tip=Upgrade to Nerubian Tower (|cffffcc00W|r)
+Hotkey=W
 
 /////////////////////////////
 //Undead Heroes & Abilities
@@ -2030,10 +2030,10 @@ Hotkey=N
 
 //crypt lord
 [Ucrl]
-Tip=Summon Crypt Lord (|cffffcc00C|r)
-Hotkey=C
-Revivetip=Revive Crypt Lord (|cffffcc00C|r)
-Awakentip=Revive Crypt Lord (|cffffcc00C|r)
+Tip=Summon Crypt Lord (|cffffcc00Q|r)
+Hotkey=Q
+Revivetip=Revive Crypt Lord (|cffffcc00Q|r)
+Awakentip=Revive Crypt Lord (|cffffcc00Q|r)
 
 // Impale
 [AUim]
@@ -2051,111 +2051,111 @@ Researchhotkey=S
 // Carrion Beetles
 [AUcb]
 Tip=Carrion Beetles (|cffffcc00C|r) - [|cffffcc00Level 1|r],Carrion Beetles (|cffffcc00C|r) - [|cffffcc00Level 2|r],Carrion Beetles (|cffffcc00C|r) - [|cffffcc00Level 3|r]
-Hotkey=C
+Hotkey=Q
 Researchtip=Learn Carrion Beetles (|cffffcc00C|r) - [|cffffcc00Level %d|r]
 Researchhotkey=C
 Untip="|cffc3dbffRight-click to activate auto-casting."
 
 // Burrow (scarab lvl 2)
 [Abu2]
-Tip=Burrow (|cffffcc00B|r)
-Untip=Unburrow (|cffffcc00B|r)
-Hotkey=B
-Unhotkey=B
+Tip=Burrow (|cffffcc00W|r)
+Untip=Unburrow (|cffffcc00W|r)
+Hotkey=W
+Unhotkey=W
 
 // Burrow (scarab lvl 3)
 [Abu3]
-Tip=Burrow (|cffffcc00B|r)
-Untip=Unburrow (|cffffcc00B|r)
-Hotkey=B
-Unhotkey=B
+Tip=Burrow (|cffffcc00W|r)
+Untip=Unburrow (|cffffcc00W|r)
+Hotkey=W
+Unhotkey=W
 
 // Locust Swarm
 [AUls]
 Tip=Locust Swarm (|cffffcc00L|r)
-Hotkey=L
+Hotkey=R
 Researchtip=Learn Locust Swarm (|cffffcc00L|r)
 Researchhotkey=L
 
 //death knight
 [Udea]
-Tip=Summon Death Knight (|cffffcc00D|r)
-Revivetip=Revive Death Knight (|cffffcc00D|r)
-Awakentip=Revive Death Knight (|cffffcc00D|r)
-Hotkey=D
+Tip=Summon Death Knight (|cffffcc00E|r)
+Revivetip=Revive Death Knight (|cffffcc00E|r)
+Awakentip=Revive Death Knight (|cffffcc00E|r)
+Hotkey=E
 
 // Death Coil
 [AUdc]
 Tip=Death Coil (|cffffcc00C|r) - [|cffffcc00Level 1|r],Death Coil (|cffffcc00C|r) - [|cffffcc00Level 2|r],Death Coil (|cffffcc00C|r) - [|cffffcc00Level 3|r]
-Hotkey=C
+Hotkey=E
 Researchtip=Learn Death Coil (|cffffcc00C|r) - [|cffffcc00Level %d|r]
 Researchhotkey=C
 
 // Unholy Aura
 [AUau]
 Tip=Unholy Aura - [|cffffcc00Level 1|r],Unholy Aura - [|cffffcc00Level 2|r],Unholy Aura - [|cffffcc00Level 3|r]
-Researchtip=Learn Unholy Aura (|cffffcc00U|r) - [|cffffcc00Level %d|r]
-Researchhotkey=U
+Researchtip=Learn Unholy Aura (|cffffcc00Q|r) - [|cffffcc00Level %d|r]
+Researchhotkey=Q
 
 // Death Pact
 [AUdp]
 Tip=Death Pact (|cffffcc00E|r) - [|cffffcc00Level 1|r],Death Pact (|cffffcc00E|r) - [|cffffcc00Level 2|r],Death Pact (|cffffcc00E|r) - [|cffffcc00Level 3|r]
-Hotkey=E
+Hotkey=W
 Researchtip=Learn Death Pact (|cffffcc00E|r) - [|cffffcc00Level %d|r]
 Researchhotkey=E
 
 // Animate Dead
 [AUan]
 Tip=Animate Dead (|cffffcc00D|r)
-Hotkey=D
+Hotkey=R
 Researchtip=Learn Animate Dead (|cffffcc00D|r)
 Researchhotkey=D
 
 //dreadlord
 [Udre]
-Tip=Summon Dreadlord (|cffffcc00E|r)
-Revivetip=Revive Dreadlord (|cffffcc00E|r)
-Awakentip=Revive Dreadlord (|cffffcc00E|r)
-Hotkey=E
+Tip=Summon Dreadlord (|cffffcc00R|r)
+Revivetip=Revive Dreadlord (|cffffcc00R|r)
+Awakentip=Revive Dreadlord (|cffffcc00R|r)
+Hotkey=R
 
 // Carrion Swarm
 [AUcs]
 Tip=Carrion Swarm (|cffffcc00C|r) - [|cffffcc00Level 1|r],Carrion Swarm (|cffffcc00C|r) - [|cffffcc00Level 2|r],Carrion Swarm (|cffffcc00C|r) - [|cffffcc00Level 3|r]
-Hotkey=C
+Hotkey=E
 Researchtip=Learn Carrion Swarm (|cffffcc00C|r) - [|cffffcc00Level %d|r]
 Researchhotkey=C
 
 // Sleep
 [AUsl]
 Tip=Sleep (|cffffcc00E|r) - [|cffffcc00Level 1|r],Sleep (|cffffcc00E|r) - [|cffffcc00Level 2|r],Sleep (|cffffcc00E|r) - [|cffffcc00Level 3|r]
-Hotkey=E
+Hotkey=W
 Researchtip=Learn Sleep (|cffffcc00E|r) - [|cffffcc00Level %d|r]
 Researchhotkey=E
 
 // Vampiric Aura
 [AUav]
 Tip=Vampiric Aura - [|cffffcc00Level 1|r],Vampiric Aura - [|cffffcc00Level 2|r],Vampiric Aura - [|cffffcc00Level 3|r]
-Researchtip=Learn Vampiric Aura (|cffffcc00V|r) - [|cffffcc00Level %d|r]
-Researchhotkey=V
+Researchtip=Learn Vampiric Aura (|cffffcc00Q|r) - [|cffffcc00Level %d|r]
+Researchhotkey=Q
 
 //inferno
 [AUin]
 Tip=Inferno (|cffffcc00N|r)
-Hotkey=N
+Hotkey=R
 Researchtip=Learn Inferno (|cffffcc00N|r)
 Researchhotkey=N
 
 //lich
 [Ulic]
-Tip=Summon Lich (|cffffcc00L|r)
-Revivetip=Revive Lich (|cffffcc00L|r)
-Awakentip=Revive Lich (|cffffcc00L|r)
-Hotkey=L
+Tip=Summon Lich (|cffffcc00W|r)
+Revivetip=Revive Lich (|cffffcc00W|r)
+Awakentip=Revive Lich (|cffffcc00W|r)
+Hotkey=W
 
 // Frost Nova
 [AUfn]
 Tip=Frost Nova (|cffffcc00N|r) - [|cffffcc00Level 1|r],Frost Nova (|cffffcc00N|r) - [|cffffcc00Level 2|r],Frost Nova (|cffffcc00N|r) - [|cffffcc00Level 3|r]
-Hotkey=N
+Hotkey=E
 Researchtip=Learn Frost Nova (|cffffcc00N|r) - [|cffffcc00Level %d|r]
 Researchhotkey=N
 
@@ -2163,21 +2163,21 @@ Researchhotkey=N
 [AUfu]
 Tip=Frost Armor (|cffffcc00F|r) - [|cffffcc00Level 1|r],Frost Armor (|cffffcc00F|r) - [|cffffcc00Level 2|r],Frost Armor (|cffffcc00F|r) - [|cffffcc00Level 3|r]
 Untip="|cffc3dbffRight-click to activate auto-casting."
-Hotkey=F
+Hotkey=W
 Researchtip=Learn Frost Armor (|cffffcc00F|r) - [|cffffcc00Level %d|r]
 Researchhotkey=F
 
 // Dark Ritual
 [AUdr]
 Tip=Dark Ritual (|cffffcc00R|r) - [|cffffcc00Level 1|r],Dark Ritual (|cffffcc00R|r) - [|cffffcc00Level 2|r],Dark Ritual (|cffffcc00R|r) - [|cffffcc00Level 3|r]
-Hotkey=R
+Hotkey=Q
 Researchtip=Learn Dark Ritual (|cffffcc00R|r) - [|cffffcc00Level %d|r]
 Researchhotkey=R
 
 // Death And Decay
 [AUdd]
 Tip=Death And Decay (|cffffcc00D|r)
-Hotkey=D
+Hotkey=R
 Researchtip=Learn Death And Decay (|cffffcc00D|r)
 Researchhotkey=D
 
@@ -2203,7 +2203,7 @@ Awakentip=Revive Naga Sea Witch (|cffffcc00G|r)
 [ANms]
 Tip=Activate Mana Shield (|cffffcc00N|r) - [|cffffcc00Level 1|r],Activate Mana Shield (|cffffcc00N|r) - [|cffffcc00Level 2|r],Activate Mana Shield (|cffffcc00N|r) - [|cffffcc00Level 3|r]
 Untip=Deactivate Mana Shield (|cffffcc00N|r)
-Hotkey=N
+Hotkey=W
 Unhotkey=N
 Researchtip=Learn Mana Shield (|cffffcc00N|r) - [|cffffcc00Level %d|r]
 Researchhotkey=N
@@ -2211,7 +2211,7 @@ Researchhotkey=N
 // Forked Lightning (Sea Witch)
 [ANfl]
 Tip=Forked Lightning (|cffffcc00F|r) - [|cffffcc00Level 1|r],Forked Lightning (|cffffcc00F|r) - [|cffffcc00Level 2|r],Forked Lightning (|cffffcc00F|r) - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=E
 Researchtip=Learn Forked Lightning (|cffffcc00F|r) - [|cffffcc00Level %d|r]
 Researchhotkey=F
 
@@ -2219,7 +2219,7 @@ Researchhotkey=F
 [ANfa]
 Tip=Frost Arrows (|cffffcc00R|r) - [|cffffcc00Level 1|r],Frost Arrows (|cffffcc00R|r) - [|cffffcc00Level 2|r],Frost Arrows (|cffffcc00R|r) - [|cffffcc00Level 3|r]
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=R
+Hotkey=Q
 Unhotkey=R
 Researchtip=Learn Frost Arrows (|cffffcc00R|r) - [|cffffcc00Level %d|r]
 Researchhotkey=R
@@ -2227,7 +2227,7 @@ Researchhotkey=R
 // Tornado (Sea Witch)
 [ANto]
 Tip=Tornado (|cffffcc00T|r)
-Hotkey=T
+Hotkey=R
 Researchtip=Learn Tornado (|cffffcc00T|r)
 Researchhotkey=T
 
@@ -2245,27 +2245,27 @@ Awakentip=Revive Pit Lord (|cffffcc00I|r)
 // Howl of Terror (Pit Lord)
 [ANht]
 Tip=Howl of Terror (|cffffcc00T|r) - [|cffffcc00Level 1|r],Howl of Terror (|cffffcc00T|r) - [|cffffcc00Level 2|r],Howl of Terror (|cffffcc00T|r) - [|cffffcc00Level 3|r]
-Hotkey=T
+Hotkey=W
 Researchtip=Learn Howl of Terror (|cffffcc00T|r) - [|cffffcc00Level %d|r]
 Researchhotkey=T
 
 // Rain of Fire (Pit Lord)
 [ANrf]
 Tip=Rain of Fire (|cffffcc00F|r) - [|cffffcc00Level 1|r],Rain of Fire (|cffffcc00F|r) - [|cffffcc00Level 2|r],Rain of Fire (|cffffcc00F|r) - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=E
 Researchtip=Learn Rain of Fire (|cffffcc00F|r) - [|cffffcc00Level %d|r]
 Researchhotkey=F
 
 // Cleaving Attack (Pit Lord)
 [ANca]
 Tip=Cleaving Attack - [|cffffcc00Level 1|r],Cleaving Attack - [|cffffcc00Level 2|r],Cleaving Attack - [|cffffcc00Level 3|r]
-Researchtip=Learn Cleaving Attack (|cffffcc00C|r) - [|cffffcc00Level %d|r]
-Researchhotkey=C
+Researchtip=Learn Cleaving Attack (|cffffcc00Q|r) - [|cffffcc00Level %d|r]
+Researchhotkey=Q
 
 // Doom (Pit Lord)
 [ANdo]
 Tip=Doom (|cffffcc00D|r)
-Hotkey=D
+Hotkey=R
 Researchtip=Learn Doom (|cffffcc00D|r)
 Researchhotkey=D
 
@@ -2284,27 +2284,27 @@ Awakentip=Revive Pandaren Brewmaster (|cffffcc00N|r)
 // Breath of Fire (Pandaren Brewmaster)
 [ANbf]
 Tip=Breath of Fire (|cffffcc00F|r) - [|cffffcc00Level 1|r],Breath of Fire (|cffffcc00F|r) - [|cffffcc00Level 2|r],Breath of Fire (|cffffcc00F|r) - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=E
 Researchtip=Learn Breath of Fire (|cffffcc00F|r) - [|cffffcc00Level %d|r]
 Researchhotkey=F
 
 // Drunken Brawler (Pandaren Brewmaster)
 [ANdb]
 Tip=Drunken Brawler - [|cffffcc00Level 1|r],Drunken Brawler - [|cffffcc00Level 2|r],Drunken Brawler - [|cffffcc00Level 3|r]
-Researchtip=Learn Drunken Brawler (|cffffcc00B|r) - [|cffffcc00Level %d|r]
-Researchhotkey=B
+Researchtip=Learn Drunken Brawler (|cffffcc00Q|r) - [|cffffcc00Level %d|r]
+Researchhotkey=Q
 
 // Drunken Haze (Pandaren Brewmaster)
 [ANdh]
 Tip=Drunken Haze (|cffffcc00D|r) - [|cffffcc00Level 1|r],Drunken Haze (|cffffcc00D|r) - [|cffffcc00Level 2|r],Drunken Haze (|cffffcc00D|r) - [|cffffcc00Level 3|r]
-Hotkey=D
+Hotkey=W
 Researchtip=Learn Drunken Haze (|cffffcc00D|r) - [|cffffcc00Level %d|r]
 Researchhotkey=D
 
 // Storm, Earth, and Fire (Pandaren Brewmaster)
 [ANef]
 Tip="Storm, |cffffcc00E|rarth, And Fire"
-Hotkey=E
+Hotkey=R
 Researchtip="Learn Storm, |cffffcc00E|rarth, And Fire"
 Researchhotkey=E
 
@@ -2348,7 +2348,7 @@ Awakentip=Revive Beastmaster (|cffffcc00S|r)
 // Summon Bear (Beastmaster)
 [ANsg]
 Tip=Summon Bear (|cffffcc00B|r) - [|cffffcc00Level 1|r],Summon Bear (|cffffcc00B|r) - [|cffffcc00Level 2|r],Summon Bear (|cffffcc00B|r) - [|cffffcc00Level 3|r]
-Hotkey=B
+Hotkey=W
 Researchtip=Learn Summon Bear (|cffffcc00B|r) - [|cffffcc00Level %d|r]
 Researchhotkey=B
 
@@ -2362,21 +2362,21 @@ Researchhotkey=Q
 // Summon Hawk (Beastmaster)
 [ANsw]
 Tip=Summon Hawk (|cffffcc00W|r) - [|cffffcc00Level 1|r],Summon Hawk (|cffffcc00W|r) - [|cffffcc00Level 2|r],Summon Hawk (|cffffcc00W|r) - [|cffffcc00Level 3|r]
-Hotkey=W
+Hotkey=E
 Researchtip=Learn Summon Hawk (|cffffcc00W|r) - [|cffffcc00Level %d|r]
 Researchhotkey=W
 
 // Stampede (Beastmaster)
 [ANst]
 Tip=Stampede (|cffffcc00T|r)
-Hotkey=T
+Hotkey=R
 Researchtip=Learn Stampede (|cffffcc00T|r)
 Researchhotkey=T
 
 // Blink (beastmaster bear)
 [ANbl]
-Hotkey=B
-Tip=Blink (|cffffcc00B|r)
+Hotkey=E
+Tip=Blink (|cffffcc00E|r)
 
 
 ///////////////////////
@@ -2393,7 +2393,7 @@ Awakentip=Revive Dark Ranger (|cffffcc00R|r)
 [ANba]
 Tip=Black Arrow (|cffffcc00B|r) - [|cffffcc00Level 1|r],Black Arrow (|cffffcc00B|r) - [|cffffcc00Level 2|r],Black Arrow (|cffffcc00B|r) - [|cffffcc00Level 3|r]
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=B
+Hotkey=Q
 Researchtip=Learn Black Arrow (|cffffcc00B|r) - [|cffffcc00Level %d|r]
 Researchhotkey=B
 
@@ -2407,14 +2407,14 @@ Researchhotkey=E
 // Life Drain  (Dark Ranger)
 [ANdr]
 Tip=Life Drain (|cffffcc00D|r) - [|cffffcc00Level 1|r],Life Drain (|cffffcc00D|r) - [|cffffcc00Level 2|r],Life Drain (|cffffcc00D|r) - [|cffffcc00Level 3|r]
-Hotkey=D
+Hotkey=W
 Researchtip=Learn Life Drain (|cffffcc00D|r) - [|cffffcc00Level %d|r]
 Researchhotkey=D
 
 // Charm (Dark Ranger)
 [ANch]
 Tip=Charm (|cffffcc00C|r)
-Hotkey=C
+Hotkey=R
 Researchtip=Learn Charm (|cffffcc00C|r)
 Researchhotkey=C
 
@@ -2440,70 +2440,70 @@ Awakentip=Revive Tinker (|cffffcc00Z|r)
 // Pocket Factory
 [ANsy]
 Tip=Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 1|r],Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 2|r],Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=E
 Researchtip=Learn Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level %d|r]
 Researchhotkey=F
 
 // Pocket Factory
 [ANs1]
 Tip=Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 1|r],Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 2|r],Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=E
 Researchtip=Learn Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level %d|r]
 Researchhotkey=F
 
 // Pocket Factory
 [ANs2]
 Tip=Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 1|r],Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 2|r],Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=E
 Researchtip=Learn Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level %d|r]
 Researchhotkey=F
 
 // Pocket Factory
 [ANs3]
 Tip=Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 1|r],Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 2|r],Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=E
 Researchtip=Learn Pocket Factory (|cffffcc00F|r) - [|cffffcc00Level %d|r]
 Researchhotkey=F
 
 // Cluster Rockets
 [ANcs]
 Tip=Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 1|r],Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 2|r],Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 3|r]
-Hotkey=R
+Hotkey=W
 Researchtip=Learn Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level %d|r]
 Researchhotkey=R
 
 // Cluster Rockets
 [ANc1]
 Tip=Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 1|r],Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 2|r],Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 3|r]
-Hotkey=R
+Hotkey=W
 Researchtip=Learn Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level %d|r]
 Researchhotkey=R
 
 // Cluster Rockets
 [ANc2]
 Tip=Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 1|r],Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 2|r],Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 3|r]
-Hotkey=R
+Hotkey=W
 Researchtip=Learn Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level %d|r]
 Researchhotkey=R
 
 // Cluster Rockets
 [ANc3]
 Tip=Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 1|r],Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 2|r],Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level 3|r]
-Hotkey=R
+Hotkey=W
 Researchtip=Learn Cluster Rockets (|cffffcc00R|r) - [|cffffcc00Level %d|r]
 Researchhotkey=R
 
 // Engineering Upgrade
 [ANeg]
 Tip=Engineering Upgrade - [|cffffcc00Level 1|r],Engineering Upgrade - [|cffffcc00Level 2|r],Engineering Upgrade - [|cffffcc00Level 3|r]
-Hotkey=E
+Hotkey=Q
 Researchtip=Learn Engineering Upgrade (|cffffcc00E|r) - [|cffffcc00Level %d|r]
 Researchhotkey=E
 
 // Robo-Goblin
 [ANrg]
 Tip=Robo-Goblin (|cffffcc00B|r)
-Hotkey=B
+Hotkey=R
 Untip=Revert to Tinker Form (|cffffcc00B|r)
 Unhotkey=B
 Researchtip=Learn Robo-Goblin (|cffffcc00B|r)
@@ -2512,7 +2512,7 @@ Researchhotkey=B
 // Robo-Goblin
 [ANg1]
 Tip=Robo-Goblin (|cffffcc00B|r)
-Hotkey=B
+Hotkey=R
 Untip=Revert to Tinker Form (|cffffcc00B|r)
 Unhotkey=B
 Researchtip=Learn Robo-Goblin (|cffffcc00B|r)
@@ -2521,7 +2521,7 @@ Researchhotkey=B
 // Robo-Goblin
 [ANg2]
 Tip=Robo-Goblin (|cffffcc00B|r)
-Hotkey=B
+Hotkey=R
 Untip=Revert to Tinker Form (|cffffcc00B|r)
 Unhotkey=B
 Researchtip=Learn Robo-Goblin (|cffffcc00B|r)
@@ -2530,7 +2530,7 @@ Researchhotkey=B
 // Robo-Goblin
 [ANg3]
 Tip=Robo-Goblin (|cffffcc00B|r)
-Hotkey=B
+Hotkey=R
 Untip=Revert to Tinker Form (|cffffcc00B|r)
 Unhotkey=B
 Researchtip=Learn Robo-Goblin (|cffffcc00B|r)
@@ -2574,21 +2574,21 @@ Hotkey=
 
 // Kaboom! (Clockwerk goblin level 1)
 [Asdg]
-Tip=Kaboom! (|cffffcc00B|r)
-Hotkey=B
-Unhotkey=B
+Tip=Kaboom! (|cffffcc00E|r)
+Hotkey=E
+Unhotkey=E
 
 // Kaboom! (Clockwerk goblin level 2)
 [Asd2]
-Tip=Kaboom! (|cffffcc00B|r)
-Hotkey=B
-Unhotkey=B
+Tip=Kaboom! (|cffffcc00E|r)
+Hotkey=E
+Unhotkey=E
 
 // Kaboom! (Clockwerk goblin level 3)
 [Asd3]
-Tip=Kaboom! (|cffffcc00B|r)
-Hotkey=B
-Unhotkey=B
+Tip=Kaboom! (|cffffcc00E|r)
+Hotkey=E
+Unhotkey=E
 
 
 ///////////////////////
@@ -2633,21 +2633,21 @@ Researchhotkey=E
 // Acid Bomb
 [ANab]
 Tip=Acid Bomb (|cffffcc00B|r) - [|cffffcc00Level 1|r],Acid Bomb (|cffffcc00B|r) - [|cffffcc00Level 2|r],Acid Bomb (|cffffcc00B|r) - [|cffffcc00Level 3|r]
-Hotkey=B
+Hotkey=W
 Researchtip=Learn Acid Bomb (|cffffcc00B|r) - [|cffffcc00Level %d|r]
 Researchhotkey=B
 
 // Chemical Rage
 [ANcr]
 Tip=Chemical Rage (|cffffcc00R|r) - [|cffffcc00Level 1|r],Chemical Rage (|cffffcc00R|r) - [|cffffcc00Level 2|r],Chemical Rage (|cffffcc00R|r) - [|cffffcc00Level 3|r]
-Hotkey=R
+Hotkey=Q
 Researchtip="Learn Chemical |cffffcc00R|rage - [|cffffcc00Level %d|r]""
 Researchhotkey=R
 
 // Transmute
 [ANtm]
 Tip=Transmute (|cffffcc00T|r)
-Hotkey=T
+Hotkey=R
 Researchtip=Learn Transmute (|cffffcc00T|r)
 Researchhotkey=T
 
@@ -2665,34 +2665,34 @@ Awakentip=Revive Firelord (|cffffcc00O|r)
 // Incinerate
 [ANic]
 Tip=Incinerate - [|cffffcc00Level 1|r],Incinerate - [|cffffcc00Level 2|r],Incinerate - [|cffffcc00Level 3|r]
-Hotkey=C
+Hotkey=E
 Researchtip=Learn Incinerate (|cffffcc00C|r) - [|cffffcc00Level %d|r]
 Researchhotkey=C
 
 // Incinerate (Arrow)
 [ANia]
 Tip=Incinerate - [|cffffcc00Level 1|r],Incinerate - [|cffffcc00Level 2|r],Incinerate - [|cffffcc00Level 3|r]
-Hotkey=C
+Hotkey=E
 Researchtip=Learn Incinerate (|cffffcc00C|r) - [|cffffcc00Level %d|r]
 Researchhotkey=C
 
 // Soul Burn
 [ANso]
 Tip=Soul Burn (|cffffcc00B|r) - [|cffffcc00Level 1|r],Soul Burn (|cffffcc00B|r) - [|cffffcc00Level 2|r],Soul Burn (|cffffcc00B|r) - [|cffffcc00Level 3|r]
-Hotkey=B
+Hotkey=W
 Researchtip=Learn Soul Burn (|cffffcc00B|r) - [|cffffcc00Level %d|r]
 Researchhotkey=B
 
 // Summmon Lava Spawn
 [ANlm]
 Tip=Summon Lava Spawn (|cffffcc00W|r) - [|cffffcc00Level 1|r],Summon Lava Spawn (|cffffcc00W|r) - [|cffffcc00Level 2|r],Summon Lava Spawn (|cffffcc00W|r) - [|cffffcc00Level 3|r]
-Hotkey=W
+Hotkey=Q
 Researchtip=Learn Summon Lava Spawn (|cffffcc00W|r) - [|cffffcc00Level %d|r]
 Researchhotkey=W
 
 // Volcano
 [ANvc]
 Tip=Volcano (|cffffcc00V|r)
-Hotkey=V
+Hotkey=R
 Researchtip=Learn Volcano (|cffffcc00V|r)
 Researchhotkey=V
