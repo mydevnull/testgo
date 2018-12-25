@@ -28,27 +28,27 @@ Hotkey=G
 //build (generic)
 [CmdBuild]
 Tip=|cffffcc00B|ruild Structure
-Hotkey=B
+Hotkey=E
 
 //build (human)
 [CmdBuildHuman]
 Tip=|cffffcc00B|ruild Structure
-Hotkey=B
+Hotkey=E
 
 //build (orc)
 [CmdBuildOrc]
 Tip=|cffffcc00B|ruild Structure
-Hotkey=B
+Hotkey=E
 
 //build (nightelf)
 [CmdBuildNightElf]
 Tip=Create |cffffcc00B|ruilding
-Hotkey=B
+Hotkey=E
 
 //build (undead)
 [CmdBuildUndead]
 Tip=Summon |cffffcc00B|ruilding
-Hotkey=B
+Hotkey=E
 
 //cancel
 [CmdCancel]
@@ -88,7 +88,7 @@ Hotkey=Y
 //select skill
 [CmdSelectSkill]
 Tip=Her|cffffcc00o|r Abilities
-Hotkey=O
+Hotkey=T
 
 //stop
 [CmdStop]
@@ -119,22 +119,22 @@ Unhotkey=R
 // neutral interact (Select user command) which is used on player shops, etc
 [Anei]
 Tip=Select |cffffcc00U|rser
-Hotkey=U
+Hotkey=T
 
 // Cargo Load (Zeppelin)
 [Aloa]
 Tip=|cffffcc00L|road
-Hotkey=L
+Hotkey=E
 
 // Cargo Unload (zeppelin)
 [Adro]
 Tip=|cffffcc00U|rnload All
-Hotkey=U
+Hotkey=W
 
 //cargo unload (sea transports)
 [Sdro]
 Tip=|cffffcc00U|rnload All
-Hotkey=U
+Hotkey=W
 
 /////////////////////////////
 //Human Units & Abilities
@@ -142,7 +142,7 @@ Hotkey=U
 
 //dragonhawk 
 [hdhw]
-Hotkey=D
+Hotkey=W
 Tip=Train |cffffcc00D|rragonhawk Rider
 
 // Aerial Shackles
@@ -153,18 +153,18 @@ Hotkey=E
 // Cloud
 [Aclf]
 Tip=|cffffcc00C|rloud
-Hotkey=C
+Hotkey=W
 
 //footman
-[hfoo]	
-Hotkey=F
+[hfoo]
+Hotkey=W
 Tip=Train |cffffcc00F|rootman
 
 // Defend
 [Adef]
 Tip=|cffffcc00D|refend
 Untip=Stop |cffffcc00D|refend
-Hotkey=D
+Hotkey=E
 Unhotkey=D
 
 //flying machine
@@ -174,70 +174,70 @@ Tip=Train |cffffcc00F|rlying Machine
 
 //knight
 [hkni]
-Hotkey=K
+Hotkey=Q
 Tip=Train |cffffcc00K|rnight
 
 //priest
 [hmpr]
-Hotkey=P
+Hotkey=W
 Tip=Train |cffffcc00P|rriest
 
 // Inner Fire
 [Ainf]
 Tip=Inner |cffffcc00F|rire
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=F
+Hotkey=Q
 Unhotkey=F
 
 // Heal
 [Ahea]
 Tip=H|cffffcc00e|ral
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=E
+Hotkey=W
 Unhotkey=E
 
 // Dispel Magic
 [Adis]
 Tip=|cffffcc00D|rispel Magic
-Hotkey=D
+Hotkey=E
 
 //mortar team
 [hmtm]
-Hotkey=M
+Hotkey=E
 Tip=Train |cffffcc00M|rortar Team
 
 // Flare
 [Afla]
 Tip=|cffffcc00F|rlare
-Hotkey=F
+Hotkey=E
 
 //peasant
 [hpea]
-Hotkey=P
+Hotkey=E
 Tip=Train |cffffcc00P|reasant
 
 // Call to Arms (For one or several peons)
 [Amil]
 Tip=|cffffcc00C|rall to Arms
 Untip=Back to |cffffcc00W|rork
-Hotkey=C
+Hotkey=E
 Unhotkey=W
 
 // Call to Arms (for all nearby peons, on a town hall)
 [Amic]
 Tip=|cffffcc00C|rall to Arms
 Untip=Back to |cffffcc00W|rork
-Hotkey=C
+Hotkey=E
 Unhotkey=W
 
 //rifleman
 [hrif]
-Hotkey=R
+Hotkey=E
 Tip=Train |cffffcc00R|rifleman
 
 //sorceress
 [hsor]
-Hotkey=S
+Hotkey=E
 Tip=Train |cffffcc00S|rorceress
 
 // Slow
@@ -250,43 +250,43 @@ Unhotkey=W
 // Polymorph
 [Aply]
 Tip=Polym|cffffcc00o|rrph
-Hotkey=O
+Hotkey=E
 
 // Invisibility
 [Aivs]
 Tip=|cffffcc00I|rnvisibility
-Hotkey=I
+Hotkey=W
 
 //spell breaker
 [hspt]
-Hotkey=B
+Hotkey=Q
 Tip=Train Spell |cffffcc00B|rreaker
 
 // Spell Steal
 [Asps]
 Tip=Spell S|cffffcc00t|real
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=T
+Hotkey=W
 Unhotkey=T
 
 // Control Magic
 [Acmg]
 Tip=|cffffcc00C|rontrol Magic
-Hotkey=C
+Hotkey=E
 
 //siege engine (without barrage)
 [hmtt]
-Hotkey=E
+Hotkey=Q
 Tip=Train Siege |cffffcc00E|rngine
 
 //siege engine (with barrage)
 [hrtt]
-Hotkey=E
+Hotkey=Q
 Tip=Train Siege |cffffcc00E|rngine
 
 //gryphon rider
 [hgry]
-Hotkey=G
+Hotkey=E
 Tip=Train |cffffcc00G|rryphon Rider
 
 /////////////////////////////
@@ -636,23 +636,23 @@ Researchhotkey=R
 
 //demolisher
 [ocat]
-Hotkey=D
+Hotkey=Q
 Tip=Train |cffffcc00D|remolisher
 
 //witch doctor
 [odoc]
-Hotkey=W
+Hotkey=E
 Tip=Train Troll |cffffcc00W|ritch Doctor
 
 // Sentry Ward
 [Aeye]
 Tip=Sentry |cffffcc00W|rard
-Hotkey=W
+Hotkey=Q
 
 // Stasis Trap spell
 [Asta]
 Tip=Stasis |cffffcc00T|rrap
-Hotkey=T
+Hotkey=W
 
 // Healing Ward
 [Ahwd]
@@ -661,42 +661,42 @@ Hotkey=E
 
 //grunt
 [ogru]
-Hotkey=G
+Hotkey=E
 Tip=Train |cffffcc00G|rrunt
 
 //troll headhunter
 [ohun]
-Hotkey=T
+Hotkey=W
 Tip=Train |cffffcc00T|rroll Headhunter
 
 //troll berserker
 [otbk]
-Hotkey=T
+Hotkey=W
 Tip=Train |cffffcc00T|rroll Berserker
 
 // Berserk
 [Absk]
 Tip="|cffffcc00B|rerserk"
-Hotkey=B
+Hotkey=E
 
 //kodo beast
 [okod]
-Hotkey=K
+Hotkey=Q
 Tip=Train |cffffcc00K|rodo Beast
 
 // Devour
 [Adev]
 Tip=|cffffcc00D|revour
-Hotkey=D
+Hotkey=E
 
 //peon
 [opeo]
-Hotkey=P
+Hotkey=E
 Tip=Train |cffffcc00P|reon
 
 //raider
 [orai]
-Hotkey=R
+Hotkey=E
 Tip=Train |cffffcc00R|raider
 
 // Ensnare
@@ -706,42 +706,42 @@ Hotkey=E
 
 //shaman
 [oshm]
-Hotkey=S
+Hotkey=W
 Tip=Train |cffffcc00S|rhaman
 
 // Purge
 [Aprg]
 Tip=Pur|cffffcc00g|re
-Hotkey=G
+Hotkey=E
 
 // Bloodlust
 [Ablo]
 Tip=|cffffcc00B|rloodlust
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=B
+Hotkey=Q
 Unhotkey=B
 
 
 // Lightning Shield
 [Alsh]
 Tip=|cffffcc00L|rightning Shield
-Hotkey=L
+Hotkey=W
 
 //tauren
 [otau]
-Hotkey=T
+Hotkey=E
 Tip=Train |cffffcc00T|rauren
 
 //troll batrider
 [otbr]
-Hotkey=B
+Hotkey=R
 Tip=Train Troll |cffffcc00B|ratrider
 
 // Unstable Concoction
 [Auco]
 Tip="Unstable |cffffcc00C|roncoction"
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=C
+Hotkey=E
 Unhotkey=C
 
 
@@ -752,37 +752,37 @@ Tip=Train |cffffcc00W|rind Rider
 
 //spirit walker
 [ospm]
-Hotkey=T
+Hotkey=W
 Tip=Train Spiri|cffffcc00t|r Walker
 
 // Ancestral Spirit
 [Aast]
 Tip="An|cffffcc00c|restral Spirit"
-Hotkey=C
+Hotkey=R
 
 // Disenchant (new)
 [Adcn]
 Tip="|cffffcc00D|risenchant"
-Hotkey=D
+Hotkey=E
 
 // Corporeal Form
 [Acpf]
 Tip="Corporeal |cffffcc00F|rorm"
 Untip="Ethereal |cffffcc00F|rorm"
-Hotkey=F
+Hotkey=Q
 Unhotkey=F
 
 // Ethereal Form
 [Aetf]
 Tip="Ethereal |cffffcc00F|rorm"
 Untip="Corporeal |cffffcc00F|rorm"
-Hotkey=F
+Hotkey=Q
 Unhotkey=F
 
 // Spirit Link
 [Aspl]
 Tip="Spi|cffffcc00r|rit Link"
-Hotkey=R
+Hotkey=W
 
 
 /////////////////////////////
@@ -792,17 +792,17 @@ Hotkey=R
 //orc melee weapon upgrades
 [Rome]
 Tip=Upgrade to Steel |cffffcc00M|relee Weapons,Upgrade to Thorium |cffffcc00M|relee Weapons,Upgrade to Arcanite |cffffcc00M|relee Weapons
-Hotkey=M,M,M
+Hotkey=Q,Q,Q
 
 //orc ranged weapon upgrades
 [Rora]
 Tip=Upgrade to Steel |cffffcc00R|ranged Weapons,Upgrade to Thorium |cffffcc00R|ranged Weapons,Upgrade to Arcanite |cffffcc00R|ranged Weapons
-Hotkey=R,R,R
+Hotkey=W,W,W
 
 //orc armor upgrades
 [Roar]
 Tip=Upgrade to Steel Unit |cffffcc00A|rrmor,Upgrade to Thorium Unit |cffffcc00A|rrmor,Upgrade to Arcanite Unit |cffffcc00A|rrmor
-Hotkey=A,A,A
+Hotkey=E,E,E
 
 //war drums upgrade
 [Rwdm]
@@ -832,7 +832,7 @@ Hotkey=N
 //envenomed spears upgrade
 [Rovs]
 Tip=Research |cffffcc00E|rnvenomed Spears
-Hotkey=E
+Hotkey=K
 
 //witch doctor training upgrade
 [Rowd]
@@ -872,7 +872,7 @@ Hotkey=R,R
 //troll berserker upgrade
 [Robk]
 Tip=B|cffffcc00e|rrserker Upgrade
-Hotkey=E
+Hotkey=K
 
 //reinforced defenses upgrade
 [Rorb]
@@ -886,17 +886,17 @@ Hotkey=N
 
 //altar of storms
 [oalt]
-Hotkey=A
+Hotkey=E
 Tip=Build |cffffcc00A|rltar of Storms
 
 //orc barracks
 [obar]
-Hotkey=B
+Hotkey=Q
 Tip=Build |cffffcc00B|rarracks
 
 //bestiary
 [obea]
-Hotkey=E
+Hotkey=R
 Tip=Build B|cffffcc00e|rastiary
 
 //war mill
@@ -926,22 +926,22 @@ Tip=|cffffcc00U|rpgrade to Stronghold
 
 //orc burrow
 [otrb]
-Hotkey=O
+Hotkey=W
 Tip=Build |cffffcc00O|rrc Burrow
 
 //battle stations
 [Abtl]
 Tip=|cffffcc00B|rattle Stations
-Hotkey=B
+Hotkey=E
 
 //stand down from battle stations
 [Astd]
 Tip=Stand |cffffcc00D|rown
-Hotkey=D
+Hotkey=W
 
 //reinforced orc burrow
 [orbr]
-Hotkey=O
+Hotkey=W
 Tip=Build Reinforced |cffffcc00O|rrc Burrow
 
 //tauren totem
@@ -965,7 +965,7 @@ Tip=Build |cffffcc00W|ratch Tower
 /////////////////////////////
 
 [Obla]
-Hotkey=B
+Hotkey=E
 Tip=Summon |cffffcc00B|rlademaster
 Revivetip=Revive |cffffcc00B|rlademaster
 Awakentip=Revive |cffffcc00B|rlademaster
@@ -973,7 +973,7 @@ Awakentip=Revive |cffffcc00B|rlademaster
 // Wind Walk
 [AOwk]
 Tip=|cffffcc00W|rind Walk - [|cffffcc00Level 1|r],|cffffcc00W|rind Walk - [|cffffcc00Level 2|r],|cffffcc00W|rind Walk - [|cffffcc00Level 3|r]
-Hotkey=W
+Hotkey=E
 Researchtip="Learn |cffffcc00W|rind Walk - [|cffffcc00Level %d|r]"
 Researchhotkey=W
 
@@ -981,24 +981,24 @@ Researchhotkey=W
 [AOcr]
 Tip=Critical Strike - [|cffffcc00Level 1|r],Critical Strike - [|cffffcc00Level 2|r],Critical Strike - [|cffffcc00Level 3|r]
 Researchtip="Learn |cffffcc00C|rritical Strike - [|cffffcc00Level %d|r]"
-Researchhotkey=C
+Researchhotkey=Q
 
 // Mirror Image
 [AOmi]
 Tip=Mirro|cffffcc00r|r Image - [|cffffcc00Level 1|r],Mirro|cffffcc00r|r Image - [|cffffcc00Level 2|r],Mirro|cffffcc00r|r Image - [|cffffcc00Level 3|r]
-Hotkey=R
+Hotkey=W
 Researchtip="Learn Mirro|cffffcc00r|r Image - [|cffffcc00Level %d|r]"
 Researchhotkey=R
 
 // Bladestorm
 [AOww]
 Tip=|cffffcc00B|rladestorm
-Hotkey=B
+Hotkey=R
 Researchtip=Learn |cffffcc00B|rladestorm
 Researchhotkey=B
 
 [Ofar]
-Hotkey=F
+Hotkey=W
 Tip=Summon |cffffcc00F|rar Seer
 Revivetip=Revive |cffffcc00F|rar Seer
 Awakentip=Revive |cffffcc00F|rar Seer
@@ -1006,14 +1006,14 @@ Awakentip=Revive |cffffcc00F|rar Seer
 // Chain Lightning
 [AOcl]
 Tip=|cffffcc00C|rhain Lightning - [|cffffcc00Level 1|r],|cffffcc00C|rhain Lightning - [|cffffcc00Level 2|r],|cffffcc00C|rhain Lightning - [|cffffcc00Level 3|r]
-Hotkey=C
+Hotkey=E
 Researchtip="Learn |cffffcc00C|rhain Lightning - [|cffffcc00Level %d|r]"
 Researchhotkey=C
 
 // Far Sight
 [AOfs]
 Tip=|cffffcc00F|rar Sight - [|cffffcc00Level 1|r],|cffffcc00F|rar Sight - [|cffffcc00Level 2|r],|cffffcc00F|rar Sight - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=Q
 Researchtip="Learn |cffffcc00F|rar Sight - [|cffffcc00Level %d|r]"
 Researchhotkey=F
 
@@ -1021,18 +1021,18 @@ Researchhotkey=F
 [AOsf]
 Tip=Feral Spiri|cffffcc00t|r - [|cffffcc00Level 1|r],Feral Spiri|cffffcc00t|r - [|cffffcc00Level 2|r],Feral Spiri|cffffcc00t|r - [|cffffcc00Level 3|r]
 Researchtip="Learn Feral Spiri|cffffcc00t|r - [|cffffcc00Level %d|r]."
-Hotkey=T
+Hotkey=W
 Researchhotkey=T
 
 // Earthquake
 [AOeq]
 Tip=|cffffcc00E|rarthquake
-Hotkey=E
+Hotkey=R
 Researchtip="Learn |cffffcc00E|rarthquake"
 Researchhotkey=E
 
 [Oshd]
-Hotkey=H
+Hotkey=R
 Tip=Summon Shadow |cffffcc00H|runter
 Revivetip=Revive Shadow |cffffcc00H|runter
 Awakentip=Revive Shadow |cffffcc00H|runter
@@ -1054,19 +1054,19 @@ Researchhotkey=W
 // Hex
 [AOhx]
 Tip=He|cffffcc00x|r - [|cffffcc00Level 1|r],He|cffffcc00x|r - [|cffffcc00Level 2|r],He|cffffcc00x|r - [|cffffcc00Level 3|r]
-Hotkey=X
+Hotkey=Q
 Researchtip="Learn He|cffffcc00x|r - [|cffffcc00Level %d|r]"
 Researchhotkey=X
 
 // Voodoo
 [AOvd]
 Tip=Big Bad |cffffcc00V|roodoo
-Hotkey=V
+Hotkey=R
 Researchtip="Learn Big Bad |cffffcc00V|roodoo"
 Researchhotkey=V
 
 [Otch]
-Hotkey=T
+Hotkey=Q
 Tip=Summon |cffffcc00T|rauren Chieftain
 Revivetip=Revive |cffffcc00T|rauren Chieftain
 Awakentip=Revive |cffffcc00T|rauren Chieftain
@@ -1083,13 +1083,13 @@ Researchhotkey=W
 [AOae]
 Tip=Endurance Aura - [|cffffcc00Level 1|r],Endurance Aura - [|cffffcc00Level 2|r],Endurance Aura - [|cffffcc00Level 3|r]
 Researchtip="Learn |cffffcc00E|rndurance Aura - [|cffffcc00Level %d|r]"
-Researchhotkey=E
+Researchhotkey=Q
 
 // War Stomp (Chieftan)
 [AOws]
 Tip=War S|cffffcc00t|romp - [|cffffcc00Level 1|r],War S|cffffcc00t|romp - [|cffffcc00Level 2|r],War S|cffffcc00t|romp - [|cffffcc00Level 3|r]
 Researchtip="Learn War S|cffffcc00t|romp - [|cffffcc00Level %d|r]."
-Hotkey=T
+Hotkey=E
 Researchhotkey=T
 
 // Reincarnation
