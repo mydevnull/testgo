@@ -140,7 +140,7 @@ Hotkey=W
 //Human Units & Abilities
 /////////////////////////////
 
-//dragonhawk 
+// dragonhawk
 [hdhw]
 Hotkey=W
 Tip=Train |cffffcc00D|rragonhawk Rider
@@ -244,7 +244,7 @@ Tip=Train |cffffcc00S|rorceress
 [Aslo]
 Tip=Slo|cffffcc00w|r
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=W
+Hotkey=Q
 Unhotkey=W
 
 // Polymorph
@@ -400,7 +400,7 @@ Hotkey=C
 
 //altar of kings
 [halt]
-Hotkey=A
+Hotkey=E
 Tip=Build |cffffcc00A|rltar of Kings
 
 //workshop
@@ -415,7 +415,7 @@ Tip=Build A|cffffcc00r|rcane Sanctum
 
 //human barracks
 [hbar]
-Hotkey=B
+Hotkey=Q
 Tip=Build |cffffcc00B|rarracks
 
 //blacksmith
@@ -430,7 +430,7 @@ Tip=|cffffcc00U|rpgrade to Castle
 
 //farm
 [hhou]
-Hotkey=F
+Hotkey=W
 Tip=Build |cffffcc00F|rarm
 
 //gryphon aviary
@@ -490,7 +490,7 @@ Tip=Build Town |cffffcc00H|rall
 
 //blood mage
 [Hblm]
-Hotkey=B
+Hotkey=Q
 Tip=Summon |cffffcc00B|rlood Mage
 Revivetip=Revive |cffffcc00B|rlood Mage
 Awakentip=Revive |cffffcc00B|rlood Mage
@@ -498,34 +498,34 @@ Awakentip=Revive |cffffcc00B|rlood Mage
 // Siphon Mana
 [AHdr]
 Tip=Sipho|cffffcc00n|r Mana - [|cffffcc00Level 1|r],Sipho|cffffcc00n|r Mana - [|cffffcc00Level 2|r],Sipho|cffffcc00n|r Mana - [|cffffcc00Level 3|r]
-Hotkey=N
+Hotkey=W
 Researchtip="Learn Sipho|cffffcc00n|r Mana - [|cffffcc00Level %d|r]"
 Researchhotkey=N
 
 // Flame Strike
 [AHfs]
 Tip=|cffffcc00F|rlame Strike - [|cffffcc00Level 1|r],|cffffcc00F|rlame Strike - [|cffffcc00Level 2|r],|cffffcc00F|rlame Strike - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=E
 Researchtip="Learn |cffffcc00F|rlame Strike - [|cffffcc00Level %d|r]"
 Researchhotkey=F
 
 // Banish
 [AHbn]
 Tip=|cffffcc00B|ranish - [|cffffcc00Level 1|r],|cffffcc00B|ranish - [|cffffcc00Level 2|r],|cffffcc00B|ranish - [|cffffcc00Level 3|r]
-Hotkey=B
+Hotkey=Q
 Researchtip="Learn |cffffcc00B|ranish - [|cffffcc00Level %d|r]"
 Researchhotkey=B
 
 // Summon Phoenix
 [AHpx]
 Tip=Phoeni|cffffcc00x|r
-Hotkey=X
+Hotkey=R
 Researchtip=Learn Phoeni|cffffcc00x|r
 Researchhotkey=X
 
 //archmage
 [Hamg]
-Hotkey=A
+Hotkey=E
 Tip=Summon |cffffcc00A|rrchmage
 Revivetip=Revive |cffffcc00A|rrchmage
 Awakentip=Revive |cffffcc00A|rrchmage
@@ -533,7 +533,7 @@ Awakentip=Revive |cffffcc00A|rrchmage
 // Blizzard
 [AHbz]
 Tip=|cffffcc00B|rlizzard - [|cffffcc00Level 1|r],|cffffcc00B|rlizzard - [|cffffcc00Level 2|r],|cffffcc00B|rlizzard - [|cffffcc00Level 3|r]
-Hotkey=B
+Hotkey=E
 Researchtip="Learn |cffffcc00B|rlizzard - [|cffffcc00Level %d|r]"
 Researchhotkey=B
 
@@ -548,18 +548,18 @@ Researchhotkey=W
 [AHab]
 Tip=Brilliance Aura - [|cffffcc00Level 1|r],Brilliance Aura - [|cffffcc00Level 2|r],Brilliance Aura - [|cffffcc00Level 3|r]
 Researchtip="Learn B|cffffcc00r|rilliance Aura - [|cffffcc00Level %d|r]"
-Researchhotkey=R
+Researchhotkey=Q
 
 // Mass Teleport
 [AHmt]
 Tip=Mass |cffffcc00T|releport
-Hotkey=T
+Hotkey=R
 Researchtip=Learn Mass |cffffcc00T|releport
 Researchhotkey=T
 
 //mountain king
 [Hmkg]
-Hotkey=M
+Hotkey=W
 Tip=Summon |cffffcc00M|rountain King
 Revivetip=Revive |cffffcc00M|rountain King
 Awakentip=Revive |cffffcc00M|rountain King
@@ -567,14 +567,14 @@ Awakentip=Revive |cffffcc00M|rountain King
 // Storm Bolt
 [AHtb]
 Tip=S|cffffcc00t|rorm Bolt - [|cffffcc00Level 1|r],S|cffffcc00t|rorm Bolt - [|cffffcc00Level 2|r],S|cffffcc00t|rorm Bolt - [|cffffcc00Level 3|r]
-Hotkey=T
+Hotkey=E
 Researchtip="Learn S|cffffcc00t|rorm Bolt - [|cffffcc00Level %d|r]"
 Researchhotkey=T
 
 // Thunder Clap
 [AHtc]
 Tip=Thunder |cffffcc00C|rlap - [|cffffcc00Level 1|r],Thunder |cffffcc00C|rlap - [|cffffcc00Level 2|r],Thunder |cffffcc00C|rlap - [|cffffcc00Level 3|r]
-Hotkey=C
+Hotkey=W
 Researchtip="Learn Thunder |cffffcc00C|rlap - [|cffffcc00Level %d|r]"
 Researchhotkey=C
 
@@ -582,20 +582,20 @@ Researchhotkey=C
 [AHbh]
 Tip=Bash - [|cffffcc00Level 1|r],Bash - [|cffffcc00Level 2|r],Bash - [|cffffcc00Level 3|r]
 Researchtip="Learn |cffffcc00B|rash - [|cffffcc00Level %d|r]"
-Researchhotkey=B
+Researchhotkey=Q
 
 // Avatar
 [AHav]
 Tip=Activate A|cffffcc00v|ratar
 Untip=Deactivate A|cffffcc00v|ratar
-Hotkey=V
+Hotkey=R
 Unhotkey=V
 Researchtip=Learn A|cffffcc00v|ratar
 Researchhotkey=V
 
 //paladin
 [Hpal]
-Hotkey=L
+Hotkey=R
 Tip=Summon Pa|cffffcc00l|radin
 Revivetip=Revive Pa|cffffcc00l|radin
 Awakentip=Revive Pa|cffffcc00l|radin
@@ -603,7 +603,7 @@ Awakentip=Revive Pa|cffffcc00l|radin
 // Holy Light
 [AHhb]
 Tip=Holy Ligh|cffffcc00t|r - [|cffffcc00Level 1|r],Holy Ligh|cffffcc00t|r - [|cffffcc00Level 2|r],Holy Ligh|cffffcc00t|r - [|cffffcc00Level 3|r]
-Hotkey=T
+Hotkey=E
 Researchtip="Learn Holy Ligh|cffffcc00t|r - [|cffffcc00Level %d|r]"
 Researchhotkey=T
 
@@ -611,7 +611,7 @@ Researchhotkey=T
 [AHds]
 Tip=Activate |cffffcc00D|rivine Shield - [|cffffcc00Level 1|r],Activate |cffffcc00D|rivine Shield - [|cffffcc00Level 2|r],Activate |cffffcc00D|rivine Shield - [|cffffcc00Level 3|r]
 Untip=Deactivate |cffffcc00D|rivine Shield
-Hotkey=D
+Hotkey=W
 Unhotkey=D
 Researchtip="Learn |cffffcc00D|rivine Shield - [|cffffcc00Level %d|r]"
 Researchhotkey=D
@@ -620,7 +620,7 @@ Researchhotkey=D
 [AHad]
 Tip=Devotion Aura - [|cffffcc00Level 1|r],Devotion Aura - [|cffffcc00Level 2|r],Devotion Aura - [|cffffcc00Level 3|r]
 Researchtip="Learn De|cffffcc00v|rotion Aura - [|cffffcc00Level %d|r]"
-Researchhotkey=V
+Researchhotkey=Q
 
 // Resurrection
 [AHre]
