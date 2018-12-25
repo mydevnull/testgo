@@ -140,7 +140,7 @@ Hotkey=W
 //Human Units & Abilities
 /////////////////////////////
 
-//dragonhawk 
+// dragonhawk
 [hdhw]
 Hotkey=W
 Tip=Train Dragonhawk Rider (|cffffcc00W|r)
@@ -242,10 +242,10 @@ Tip=Train Sorceress (|cffffcc00E|r)
 
 // Slow
 [Aslo]
-Tip=Slow (|cffffcc00W|r)
+Tip=Slow (|cffffcc00Q|r)
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=W
-Unhotkey=W
+Hotkey=Q
+Unhotkey=Q
 
 // Polymorph
 [Aply]
@@ -400,8 +400,8 @@ Hotkey=C
 
 //altar of kings
 [halt]
-Hotkey=A
-Tip=Build Altar of Kings (|cffffcc00A|r)
+Hotkey=E
+Tip=Build Altar of Kings (|cffffcc00E|r)
 
 //workshop
 [harm]	
@@ -415,8 +415,8 @@ Tip=Build Arcane Sanctum (|cffffcc00R|r)
 
 //human barracks
 [hbar]
-Hotkey=B
-Tip=Build Barracks (|cffffcc00B|r)
+Hotkey=Q
+Tip=Build Barracks (|cffffcc00Q|r)
 
 //blacksmith
 [hbla]
@@ -430,8 +430,8 @@ Tip=Upgrade to Castle (|cffffcc00U|r)
 
 //farm
 [hhou]
-Hotkey=F
-Tip=Build Farm (|cffffcc00F|r)
+Hotkey=W
+Tip=Build Farm (|cffffcc00W|r)
 
 //gryphon aviary
 [hgra]
@@ -490,52 +490,52 @@ Tip=Build Town Hall (|cffffcc00H|r)
 
 //blood mage
 [Hblm]
-Hotkey=B
-Tip=Summon Blood Mage (|cffffcc00B|r)
-Revivetip=Revive Blood Mage (|cffffcc00B|r)
-Awakentip=Revive Blood Mage (|cffffcc00B|r)
+Hotkey=Q
+Tip=Summon Blood Mage (|cffffcc00Q|r)
+Revivetip=Revive Blood Mage (|cffffcc00Q|r)
+Awakentip=Revive Blood Mage (|cffffcc00Q|r)
 
 // Siphon Mana
 [AHdr]
-Tip=Siphon Mana (|cffffcc00N|r) - [|cffffcc00Level 1|r],Siphon Mana (|cffffcc00N|r) - [|cffffcc00Level 2|r],Siphon Mana (|cffffcc00N|r) - [|cffffcc00Level 3|r]
-Hotkey=N
-Researchtip=Learn Siphon Mana (|cffffcc00N|r) - [|cffffcc00Level %d|r]
-Researchhotkey=N
+Tip=Siphon Mana (|cffffcc00W|r) - [|cffffcc00Level 1|r],Siphon Mana (|cffffcc00W|r) - [|cffffcc00Level 2|r],Siphon Mana (|cffffcc00W|r) - [|cffffcc00Level 3|r]
+Hotkey=W
+Researchtip=Learn Siphon Mana (|cffffcc00W|r) - [|cffffcc00Level %d|r]
+Researchhotkey=W
 
 // Flame Strike
 [AHfs]
-Tip=Flame Strike (|cffffcc00F|r) - [|cffffcc00Level 1|r],Flame Strike (|cffffcc00F|r) - [|cffffcc00Level 2|r],Flame Strike (|cffffcc00F|r) - [|cffffcc00Level 3|r]
-Hotkey=F
-Researchtip=Learn Flame Strike (|cffffcc00F|r) - [|cffffcc00Level %d|r]
-Researchhotkey=F
+Tip=Flame Strike (|cffffcc00E|r) - [|cffffcc00Level 1|r],Flame Strike (|cffffcc00E|r) - [|cffffcc00Level 2|r],Flame Strike (|cffffcc00E|r) - [|cffffcc00Level 3|r]
+Hotkey=E
+Researchtip=Learn Flame Strike (|cffffcc00E|r) - [|cffffcc00Level %d|r]
+Researchhotkey=E
 
 // Banish
 [AHbn]
-Tip=Banish (|cffffcc00B|r) - [|cffffcc00Level 1|r],Banish (|cffffcc00B|r) - [|cffffcc00Level 2|r],Banish (|cffffcc00B|r) - [|cffffcc00Level 3|r]
-Hotkey=B
-Researchtip=Learn Banish (|cffffcc00B|r) - [|cffffcc00Level %d|r]
-Researchhotkey=B
+Tip=Banish (|cffffcc00Q|r) - [|cffffcc00Level 1|r],Banish (|cffffcc00Q|r) - [|cffffcc00Level 2|r],Banish (|cffffcc00Q|r) - [|cffffcc00Level 3|r]
+Hotkey=Q
+Researchtip=Learn Banish (|cffffcc00Q|r) - [|cffffcc00Level %d|r]
+Researchhotkey=Q
 
 // Summon Phoenix
 [AHpx]
-Tip=Phoenix (|cffffcc00X|r)
-Hotkey=X
-Researchtip=Learn Phoenix (|cffffcc00X|r)
-Researchhotkey=X
+Tip=Phoenix (|cffffcc00R|r)
+Hotkey=R
+Researchtip=Learn Phoenix (|cffffcc00R|r)
+Researchhotkey=R
 
 //archmage
 [Hamg]
-Hotkey=A
-Tip=Summon Archmage (|cffffcc00A|r)
-Revivetip=Revive Archmage (|cffffcc00A|r)
-Awakentip=Revive Archmage (|cffffcc00A|r)
+Hotkey=E
+Tip=Summon Archmage (|cffffcc00E|r)
+Revivetip=Revive Archmage (|cffffcc00E|r)
+Awakentip=Revive Archmage (|cffffcc00E|r)
 
 // Blizzard
 [AHbz]
-Tip=Blizzard (|cffffcc00B|r) - [|cffffcc00Level 1|r],Blizzard (|cffffcc00B|r) - [|cffffcc00Level 2|r],Blizzard (|cffffcc00B|r) - [|cffffcc00Level 3|r]
-Hotkey=B
-Researchtip=Learn Blizzard (|cffffcc00B|r) - [|cffffcc00Level %d|r]
-Researchhotkey=B
+Tip=Blizzard (|cffffcc00E|r) - [|cffffcc00Level 1|r],Blizzard (|cffffcc00E|r) - [|cffffcc00Level 2|r],Blizzard (|cffffcc00E|r) - [|cffffcc00Level 3|r]
+Hotkey=E
+Researchtip=Learn Blizzard (|cffffcc00E|r) - [|cffffcc00Level %d|r]
+Researchhotkey=E
 
 // Summon Water Elemental
 [AHwe]
@@ -547,80 +547,80 @@ Researchhotkey=W
 // Brilliance Aura
 [AHab]
 Tip=Brilliance Aura - [|cffffcc00Level 1|r],Brilliance Aura - [|cffffcc00Level 2|r],Brilliance Aura - [|cffffcc00Level 3|r]
-Researchtip=Learn Brilliance Aura (|cffffcc00R|r) - [|cffffcc00Level %d|r]
-Researchhotkey=R
+Researchtip=Learn Brilliance Aura (|cffffcc00Q|r) - [|cffffcc00Level %d|r]
+Researchhotkey=Q
 
 // Mass Teleport
 [AHmt]
-Tip=Mass Teleport (|cffffcc00T|r)
-Hotkey=T
-Researchtip=Learn Mass Teleport (|cffffcc00T|r)
-Researchhotkey=T
+Tip=Mass Teleport (|cffffcc00R|r)
+Hotkey=R
+Researchtip=Learn Mass Teleport (|cffffcc00R|r)
+Researchhotkey=R
 
 //mountain king
 [Hmkg]
-Hotkey=M
-Tip=Summon Mountain King (|cffffcc00M|r)
-Revivetip=Revive Mountain King (|cffffcc00M|r)
-Awakentip=Revive Mountain King (|cffffcc00M|r)
+Hotkey=W
+Tip=Summon Mountain King (|cffffcc00W|r)
+Revivetip=Revive Mountain King (|cffffcc00W|r)
+Awakentip=Revive Mountain King (|cffffcc00W|r)
 
 // Storm Bolt
 [AHtb]
-Tip=Storm Bolt (|cffffcc00T|r) - [|cffffcc00Level 1|r],Storm Bolt (|cffffcc00T|r) - [|cffffcc00Level 2|r],Storm Bolt (|cffffcc00T|r) - [|cffffcc00Level 3|r]
-Hotkey=T
-Researchtip=Learn Storm Bolt (|cffffcc00T|r) - [|cffffcc00Level %d|r]
-Researchhotkey=T
+Tip=Storm Bolt (|cffffcc00E|r) - [|cffffcc00Level 1|r],Storm Bolt (|cffffcc00E|r) - [|cffffcc00Level 2|r],Storm Bolt (|cffffcc00E|r) - [|cffffcc00Level 3|r]
+Hotkey=E
+Researchtip=Learn Storm Bolt (|cffffcc00E|r) - [|cffffcc00Level %d|r]
+Researchhotkey=E
 
 // Thunder Clap
 [AHtc]
-Tip=Thunder Clap (|cffffcc00C|r) - [|cffffcc00Level 1|r],Thunder Clap (|cffffcc00C|r) - [|cffffcc00Level 2|r],Thunder Clap (|cffffcc00C|r) - [|cffffcc00Level 3|r]
-Hotkey=C
-Researchtip=Learn Thunder Clap (|cffffcc00C|r) - [|cffffcc00Level %d|r]
-Researchhotkey=C
+Tip=Thunder Clap (|cffffcc00W|r) - [|cffffcc00Level 1|r],Thunder Clap (|cffffcc00W|r) - [|cffffcc00Level 2|r],Thunder Clap (|cffffcc00W|r) - [|cffffcc00Level 3|r]
+Hotkey=W
+Researchtip=Learn Thunder Clap (|cffffcc00W|r) - [|cffffcc00Level %d|r]
+Researchhotkey=W
 
 // Bash
 [AHbh]
 Tip=Bash - [|cffffcc00Level 1|r],Bash - [|cffffcc00Level 2|r],Bash - [|cffffcc00Level 3|r]
-Researchtip=Learn Bash (|cffffcc00B|r) - [|cffffcc00Level %d|r]
-Researchhotkey=B
+Researchtip=Learn Bash (|cffffcc00Q|r) - [|cffffcc00Level %d|r]
+Researchhotkey=Q
 
 // Avatar
 [AHav]
-Tip=Activate Avatar (|cffffcc00V|r)
-Untip=Deactivate Avatar (|cffffcc00V|r)
-Hotkey=V
-Unhotkey=V
-Researchtip=Learn Avatar (|cffffcc00V|r)
-Researchhotkey=V
+Tip=Activate Avatar (|cffffcc00R|r)
+Untip=Deactivate Avatar (|cffffcc00R|r)
+Hotkey=R
+Unhotkey=R
+Researchtip=Learn Avatar (|cffffcc00R|r)
+Researchhotkey=R
 
 //paladin
 [Hpal]
-Hotkey=L
-Tip=Summon Paladin (|cffffcc00L|r)
-Revivetip=Revive Paladin (|cffffcc00L|r)
-Awakentip=Revive Paladin (|cffffcc00L|r)
+Hotkey=R
+Tip=Summon Paladin (|cffffcc00R|r)
+Revivetip=Revive Paladin (|cffffcc00R|r)
+Awakentip=Revive Paladin (|cffffcc00R|r)
 
 // Holy Light
 [AHhb]
-Tip=Holy Light (|cffffcc00T|r) - [|cffffcc00Level 1|r],Holy Light (|cffffcc00T|r) - [|cffffcc00Level 2|r],Holy Light (|cffffcc00T|r) - [|cffffcc00Level 3|r]
-Hotkey=T
-Researchtip=Learn Holy Light (|cffffcc00T|r) - [|cffffcc00Level %d|r]
-Researchhotkey=T
+Tip=Holy Light (|cffffcc00E|r) - [|cffffcc00Level 1|r],Holy Light (|cffffcc00E|r) - [|cffffcc00Level 2|r],Holy Light (|cffffcc00E|r) - [|cffffcc00Level 3|r]
+Hotkey=E
+Researchtip=Learn Holy Light (|cffffcc00E|r) - [|cffffcc00Level %d|r]
+Researchhotkey=E
 
 // Divine Shield
 [AHds]
-Tip=Activate Divine Shield (|cffffcc00D|r) - [|cffffcc00Level 1|r],Activate Divine Shield (|cffffcc00D|r) - [|cffffcc00Level 2|r],Activate Divine Shield (|cffffcc00D|r) - [|cffffcc00Level 3|r]
-Untip=Deactivate Divine Shield (|cffffcc00D|r)
-Hotkey=D
-Unhotkey=D
-Researchtip=Learn Divine Shield (|cffffcc00D|r) - [|cffffcc00Level %d|r]
-Researchhotkey=D
+Tip=Activate Divine Shield (|cffffcc00W|r) - [|cffffcc00Level 1|r],Activate Divine Shield (|cffffcc00W|r) - [|cffffcc00Level 2|r],Activate Divine Shield (|cffffcc00W|r) - [|cffffcc00Level 3|r]
+Untip=Deactivate Divine Shield (|cffffcc00W|r)
+Hotkey=W
+Unhotkey=W
+Researchtip=Learn Divine Shield (|cffffcc00W|r) - [|cffffcc00Level %d|r]
+Researchhotkey=W
 
 // Devotion Aura
 [AHad]
 Tip=Devotion Aura - [|cffffcc00Level 1|r],Devotion Aura - [|cffffcc00Level 2|r],Devotion Aura - [|cffffcc00Level 3|r]
-Researchtip=Learn Devotion Aura (|cffffcc00V|r) - [|cffffcc00Level %d|r]
-Researchhotkey=V
+Researchtip=Learn Devotion Aura (|cffffcc00Q|r) - [|cffffcc00Level %d|r]
+Researchhotkey=Q
 
 // Resurrection
 [AHre]
