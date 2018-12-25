@@ -14,10 +14,10 @@ const (
 	keep         action = 0
 	command      action = 1
 	hotkey       action = 2
-	replaceOne   action = 3
-	replaceTwo   action = 4
-	replaceThree action = 5
-	overwrite    action = 6
+	hotkey2      action = 3
+	replaceOne   action = 4
+	replaceTwo   action = 5
+	replaceThree action = 6
 
 	matchFalse   match = 0
 	matchTrue    match = 1
@@ -40,7 +40,7 @@ func (e Expression) matches(line string) match {
 		case command:
 			return matchCommand
 
-		case hotkey:
+		case hotkey, hotkey2:
 			return matchHotkey
 
 		default:
@@ -52,7 +52,7 @@ func (e Expression) matches(line string) match {
 }
 
 func (e Expression) extract(line string) string {
-	return e.regex.ReplaceAllString(line, "$1")
+	return e.regex.ReplaceAllString(line, "$2")
 }
 
 // replace returns a string modified according to the regex and the action
@@ -70,10 +70,7 @@ func (e Expression) replace(line string, key string) string {
 	case command:
 		return line
 
-	case hotkey:
-		return line
-
-	case overwrite:
+	case hotkey, hotkey2:
 		return fmt.Sprintf("%s%s", e.regex.ReplaceAllString(line, "$1"), key)
 
 	case replaceOne:
@@ -100,12 +97,17 @@ func NewExpressions() []Expression {
 	})
 	expressions = append(expressions, Expression{ // hotkey
 		action: hotkey,
-		regex:  regexp.MustCompile(`^Hotkey=(?P<hotkey>\w+)(,\w+){0,2}[ \t]*$`),
+		regex:  regexp.MustCompile(`^(?P<name>Hotkey=)(?P<hotkey>\w+)(,\w+){0,2}[ \t]*$`),
 	})
 	expressions = append(expressions, Expression{ // researchhotkey
-		action: hotkey,
-		regex:  regexp.MustCompile(`^Researchhotkey=(?P<hotkey>\w+)(,\w+){0,2}[ \t]*$`),
+		action: hotkey2,
+		regex:  regexp.MustCompile(`^(?P<name>Researchhotkey=)(?P<hotkey>\w+)(,\w+){0,2}[ \t]*$`),
 	})
+	expressions = append(expressions, Expression{ // unhotkey
+		action: hotkey2,
+		regex:  regexp.MustCompile(`^(?P<name>Unhotkey=)(?P<hotkey>\w+)(,\w+){0,2}[ \t]*$`),
+	})
+
 	expressions = append(expressions, Expression{ // comment
 		action: keep,
 		regex:  regexp.MustCompile(`^\/\/.*$`),
@@ -114,12 +116,6 @@ func NewExpressions() []Expression {
 		action: keep,
 		regex:  regexp.MustCompile(`^[ \t]*$`),
 	})
-
-	expressions = append(expressions, Expression{ // unhotkey
-		action: overwrite,
-		regex:  regexp.MustCompile(`^(?P<name>Unhotkey=)(?P<hotkey>[\w \!\.]*)$`),
-	})
-
 	expressions = append(expressions, Expression{ // Awakentip=tip (E)
 		action: keep,
 		regex:  regexp.MustCompile(`^Awakentip=[\w \-\!\.]* \(\|cffffcc00\w+\|r\)[\w \-\!\.]*$`),
@@ -255,6 +251,7 @@ func main() {
 	expressions := NewExpressions()
 
 	current := Group{}
+	currentHotkey := ""
 
 	f, err := os.Open("CustomKeys.txt")
 	if err != nil {
@@ -274,15 +271,21 @@ func main() {
 			switch e.matches(line) {
 
 			case matchCommand:
+				current.Hotkey = currentHotkey
 				current.Adjust(expressions)
 				current.Print()
 				current = Group{Lines: []string{line}}
+				currentHotkey = ""
 				matched = true
 				break innerloop
 
 			case matchHotkey:
 				current.Lines = append(current.Lines, line)
-				current.Hotkey = e.extract(line)
+				if e.action == hotkey2 && currentHotkey == "" {
+					currentHotkey = e.extract(line)
+				} else if e.action == hotkey {
+					currentHotkey = e.extract(line)
+				}
 				matched = true
 				break innerloop
 
