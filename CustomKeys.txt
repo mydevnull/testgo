@@ -1106,27 +1106,27 @@ Researchhotkey=R
 // Shadow Meld 
 [Ashm]
 Tip=H|cffffcc00i|rde
-Hotkey=I
+Hotkey=D
 
 //glaive thrower
 [ebal]
-Hotkey=T
+Hotkey=Q
 Tip=Train Glaive |cffffcc00T|rhrower
 
 //chimaera
 [echm]
-Hotkey=C
+Hotkey=E
 Tip=Train |cffffcc00C|rhimaera
 
 //druid of the claw, night elf form
 [edoc]
-Hotkey=C
+Hotkey=W
 Tip=Train Druid of the |cffffcc00C|rlaw
 
 // Roar, night elf form
 [Aroa]
 Tip=|cffffcc00R|roar
-Hotkey=R
+Hotkey=W
 
 // Rejuvenation
 [Arej]
@@ -1136,36 +1136,36 @@ Hotkey=E
 // Bear Form
 [Abrf]
 Tip=Bear |cffffcc00F|rorm
-Hotkey=F
+Hotkey=Q
 Untip=Night Elf |cffffcc00F|rorm
 Unhotkey=F
 
 // Roar (bear form)
 [Ara2]
 Tip=|cffffcc00R|roar
-Hotkey=R
+Hotkey=W
 
 //druid of the talon
 [edot]
-Hotkey=T
+Hotkey=W
 Tip=Train Druid of the |cffffcc00T|ralon
 
 // Faerie Fire
 [Afae]
 Tip=Fae|cffffcc00r|rie Fire
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=R
+Hotkey=W
 Unhotkey=R
 
 // Cyclone
 [Acyc]
 Tip=|cffffcc00C|ryclone
-Hotkey=C
+Hotkey=E
 
 // Crow Form
 [Arav]
 Tip=Storm Crow |cffffcc00F|rorm
-Hotkey=F
+Hotkey=Q
 Untip=Night Elf |cffffcc00F|rorm
 Unhotkey=F
 
@@ -1173,12 +1173,12 @@ Unhotkey=F
 [Afa2]
 Tip=Fae|cffffcc00r|rie Fire
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=R
+Hotkey=W
 Unhotkey=R
 
 //wisp
 [ewsp]
-Hotkey=W
+Hotkey=E
 Tip=Train |cffffcc00W|risp
 
 // Renew
@@ -1196,11 +1196,11 @@ Hotkey=G
 // Detonate
 [Adtn]
 Tip=|cffffcc00D|retonate
-Hotkey=D
+Hotkey=Q
 
 //huntress
 [esen]
-Hotkey=H
+Hotkey=W
 Tip=Train |cffffcc00H|runtress
 
 // Sentinel
@@ -1210,44 +1210,44 @@ Hotkey=E
 
 //archer
 [earc]
-Hotkey=A
+Hotkey=E
 Tip=Train |cffffcc00A|rrcher
 
 // Mount Hippogryph
 [Aco2]
 Tip=Mo|cffffcc00u|rnt Hippogryph
-Hotkey=U
+Hotkey=E
 
 // Dismount Hippogryph
 [Adec]
 Tip=Dismo|cffffcc00u|rnt Archer & Hippogryph
-Hotkey=U
+Hotkey=E
 
 //dryad
 [edry]
-Hotkey=D
+Hotkey=E
 Tip=Train |cffffcc00D|rryad
 
 // Auto-Dispel Magic
 [Aadm]
 Tip=A|cffffcc00b|rolish Magic
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=B
+Hotkey=E
 Unhotkey=B
 
 //hippogryph
 [ehip]
-Hotkey=H
+Hotkey=E
 Tip=Train |cffffcc00H|rippogryph
 
 // Pick up Archer
 [Aco3]
 Tip=Pick |cffffcc00u|rp Archer
-Hotkey=U
+Hotkey=E
 
 //mountain giant
 [emtg]
-Hotkey=G
+Hotkey=Q
 Tip=Train Mountain |cffffcc00G|riant
 
 // War Club
@@ -1258,18 +1258,18 @@ Hotkey=W
 // Taunt
 [Atau]
 Tip=|cffffcc00T|raunt
-Hotkey=T
+Hotkey=E
 
 //faerie dragon
 [efdr]
-Hotkey=F
+Hotkey=Q
 Tip=Train |cffffcc00F|raerie Dragon
 
 // Mana Flare
 [Amfl]
 Tip=Mana |cffffcc00F|rlare
 Untip=Stop Mana |cffffcc00F|rlare
-Hotkey=F
+Hotkey=W
 Unhotkey=F
 
 // Phase Shift
@@ -1387,7 +1387,7 @@ Hotkey=M
 //wellspring upgrade
 [Rews]
 Tip=Research W|cffffcc00e|rll Spring
-Hotkey=E
+Hotkey=K
 
 //backpack upgrade
 [Repm]
@@ -1402,7 +1402,7 @@ Hotkey=E
 // Root
 [Aroo]
 Tip=|cffffcc00R|root
-Hotkey=R
+Hotkey=W
 Untip=Up|cffffcc00r|root
 Unhotkey=R
 
@@ -1457,7 +1457,7 @@ Tip=Create |cffffcc00H|runter's Hall
 
 //altar of elders
 [eate]
-Hotkey=A
+Hotkey=E
 Tip=Create |cffffcc00A|rltar of Elders
 
 //ancient of lore
@@ -1467,17 +1467,17 @@ Tip=Create Ancient of |cffffcc00L|rore
 
 //ancient of war
 [eaom]
-Hotkey=R
+Hotkey=Q
 Tip=Create Ancient of Wa|cffffcc00r|r
 
 //ancient of wind
 [eaow]
-Hotkey=W
+Hotkey=K
 Tip=Create Ancient of |cffffcc00W|rind
 
 //ancient of wonders
 [eden]
-Hotkey=D
+Hotkey=R
 Tip=Build Ancient of Won|cffffcc00d|rers
 
 //chimaera roost
@@ -1487,14 +1487,14 @@ Tip=Create |cffffcc00C|rhimaera Roost
 
 //moon well
 [emow]
-Hotkey=M
+Hotkey=W
 Tip=Create |cffffcc00M|roon Well
 
 // Moon pool mana replenish
 [Ambt]
 Tip=|cffffcc00R|replenish Mana and Life
 Untip="|cffc3dbff|cffc3dbffRight-click to activate auto-casting.|r|r"
-Hotkey=R
+Hotkey=E
 Unhotkey=R
 
 //////////////////////////////
@@ -1503,7 +1503,7 @@ Unhotkey=R
 
 //Demon Hunter
 [Edem]
-Hotkey=D
+Hotkey=W
 Tip=Summon |cffffcc00D|remon Hunter
 Revivetip=Revive |cffffcc00D|remon Hunter
 Awakentip=Revive |cffffcc00D|remon Hunter
@@ -1511,14 +1511,14 @@ Awakentip=Revive |cffffcc00D|remon Hunter
 // Mana Burn
 [AEmb]
 Tip=Mana |cffffcc00B|rurn - [|cffffcc00Level 1|r],Mana |cffffcc00B|rurn - [|cffffcc00Level 2|r],Mana |cffffcc00B|rurn - [|cffffcc00Level 3|r]
-Hotkey=B
+Hotkey=E
 Researchtip="Learn Mana |cffffcc00B|rurn - [|cffffcc00Level %d|r]"
 Researchhotkey=B
 
 // Immolation
 [AEim]
 Tip=Activate Immo|cffffcc00l|ration - [|cffffcc00Level 1|r],Activate Immo|cffffcc00l|ration - [|cffffcc00Level 2|r],Activate Immo|cffffcc00l|ration - [|cffffcc00Level 3|r]
-Hotkey=L
+Hotkey=W
 Untip=Deactivate Immo|cffffcc00l|ration
 Unhotkey=L
 Researchtip="Learn Immo|cffffcc00l|ration - [|cffffcc00Level %d|r]"
@@ -1528,18 +1528,18 @@ Researchhotkey=L
 [AEev]
 Tip=Evasion - [|cffffcc00Level 1|r],Evasion - [|cffffcc00Level 2|r],Evasion - [|cffffcc00Level 3|r]
 Researchtip="Learn |cffffcc00E|rvasion - [|cffffcc00Level %d|r]"
-Researchhotkey=E
+Researchhotkey=Q
 
 // Metamorphosis
 [AEme]
 Tip=Me|cffffcc00t|ramorphosis
-Hotkey=T
+Hotkey=R
 Researchtip=Learn Me|cffffcc00t|ramorphosis
 Researchhotkey=T
 
 //keeper of the grove
 [Ekee]
-Hotkey=K
+Hotkey=E
 Tip=Summon |cffffcc00K|reeper of the Grove
 Revivetip=Revive |cffffcc00K|reeper of the Grove
 Awakentip=Revive |cffffcc00K|reeper of the Grove
@@ -1554,7 +1554,7 @@ Researchhotkey=E
 // Force of Nature
 [AEfn]
 Tip=|cffffcc00F|rorce of Nature - [|cffffcc00Level 1|r],|cffffcc00F|rorce of Nature - [|cffffcc00Level 2|r],|cffffcc00F|rorce of Nature - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=W
 Researchtip="Learn |cffffcc00F|rorce of Nature - [|cffffcc00Level %d|r]"
 Researchhotkey=F
 
@@ -1562,18 +1562,18 @@ Researchhotkey=F
 [AEah]
 Tip=Thorns Aura - [|cffffcc00Level 1|r],Thorns Aura - [|cffffcc00Level 2|r],Thorns Aura - [|cffffcc00Level 3|r]
 Researchtip="Learn Tho|cffffcc00r|rns Aura - [|cffffcc00Level %d|r]"
-Researchhotkey=R
+Researchhotkey=Q
 
 // Tranquility
 [AEtq]
 Tip=|cffffcc00T|rranquility
-Hotkey=T
+Hotkey=R
 Researchtip="Learn |cffffcc00T|rranquility"
 Researchhotkey=T
 
 //priestess of the moon
 [Emoo]
-Hotkey=P
+Hotkey=R
 Tip=Summon |cffffcc00P|rriestess of the Moon
 Revivetip=Revive |cffffcc00P|rriestess of the Moon
 Awakentip=Revive |cffffcc00P|rriestess of the Moon
@@ -1581,7 +1581,7 @@ Awakentip=Revive |cffffcc00P|rriestess of the Moon
 // Scout
 [AEst]
 Tip=S|cffffcc00c|rout - [|cffffcc00Level 1|r],S|cffffcc00c|rout - [|cffffcc00Level 2|r],S|cffffcc00c|rout - [|cffffcc00Level 3|r]
-Hotkey=C
+Hotkey=W
 Researchtip="Learn S|cffffcc00c|rout - [|cffffcc00Level %d|r]"
 Researchhotkey=C
 
@@ -1589,7 +1589,7 @@ Researchhotkey=C
 [AHfa]
 Tip=Sea|cffffcc00r|ring Arrows - [|cffffcc00Level 1|r],Sea|cffffcc00r|ring Arrows - [|cffffcc00Level 2|r],Sea|cffffcc00r|ring Arrows - [|cffffcc00Level 3|r]
 Untip="|cffc3dbffRight-click to activate auto-casting.|r"
-Hotkey=R
+Hotkey=E
 Unhotkey=R
 Researchtip="Learn Sea|cffffcc00r|ring Arrows - [|cffffcc00Level %d|r]"
 Researchhotkey=R
@@ -1598,18 +1598,18 @@ Researchhotkey=R
 [AEar]
 Tip=Trueshot Aura - [|cffffcc00Level 1|r],Trueshot Aura - [|cffffcc00Level 2|r],Trueshot Aura - [|cffffcc00Level 3|r]
 Researchtip="Learn |cffffcc00T|rrueshot Aura - [|cffffcc00Level %d|r]"
-Researchhotkey=T
+Researchhotkey=Q
 
 // Starfall
 [AEsf]
 Tip=Star|cffffcc00f|rall
-Hotkey=F
+Hotkey=R
 Researchtip=Learn Star|cffffcc00f|rall
 Researchhotkey=F
 
 //warden
 [Ewar]
-Hotkey=W
+Hotkey=E
 Tip=Summon |cffffcc00W|rarden
 Revivetip=Revive |cffffcc00W|rarden
 Awakentip=Revive |cffffcc00W|rarden
@@ -1617,21 +1617,21 @@ Awakentip=Revive |cffffcc00W|rarden
 // Blink
 [AEbl]
 Tip=|cffffcc00B|rlink - [|cffffcc00Level 1|r],|cffffcc00B|rlink - [|cffffcc00Level 2|r],|cffffcc00B|rlink - [|cffffcc00Level 3|r]
-Hotkey=B
+Hotkey=E
 Researchtip="Learn |cffffcc00B|rlink - [|cffffcc00Level %d|r]"
 Researchhotkey=B
 
 // Fan of Knives
 [AEfk]
 Tip=|cffffcc00F|ran of Knives - [|cffffcc00Level 1|r],|cffffcc00F|ran of Knives - [|cffffcc00Level 2|r],|cffffcc00F|ran of Knives - [|cffffcc00Level 3|r]
-Hotkey=F
+Hotkey=W
 Researchtip="Learn |cffffcc00F|ran of Knives - [|cffffcc00Level %d|r]"
 Researchhotkey=F
 
 // Shadow Strike
 [AEsh]
 Tip=Sha|cffffcc00d|row Strike - [|cffffcc00Level 1|r],Sha|cffffcc00d|row Strike - [|cffffcc00Level 2|r],Sha|cffffcc00d|row Strike - [|cffffcc00Level 3|r]
-Hotkey=D
+Hotkey=Q
 Researchtip="Learn Sha|cffffcc00d|row Strike - [|cffffcc00Level %d|r]"
 Researchhotkey=D
 
@@ -1639,7 +1639,7 @@ Researchhotkey=D
 // Avatar of Vengeance
 [AEsv]
 Tip=|cffffcc00V|rengeance
-Hotkey=V
+Hotkey=R
 Researchtip="Learn |cffffcc00V|rengeance"
 Researchhotkey=V
 
@@ -1647,7 +1647,7 @@ Researchhotkey=V
 // Vengeance
 [Avng]
 Tip=Spirit of |cffffcc00V|rengeance
-Hotkey=V
+Hotkey=E
 Untip="|cffc3dbffRight-click to activate auto-casting."
 
 
