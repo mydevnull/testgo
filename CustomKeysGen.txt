@@ -218,17 +218,17 @@ Tip=Train Peasant (|cffffcc00E|r)
 
 // Call to Arms (For one or several peons)
 [Amil]
-Tip=Call to Arms (|cffffcc00E|r)
-Untip=Back to Work (|cffffcc00E|r)
-Hotkey=E
-Unhotkey=E
+Tip=Call to Arms (|cffffcc00W|r)
+Untip=Back to Work (|cffffcc00W|r)
+Hotkey=W
+Unhotkey=W
 
 // Call to Arms (for all nearby peons, on a town hall)
 [Amic]
-Tip=Call to Arms (|cffffcc00E|r)
-Untip=Back to Work (|cffffcc00E|r)
-Hotkey=E
-Unhotkey=E
+Tip=Call to Arms (|cffffcc00W|r)
+Untip=Back to Work (|cffffcc00W|r)
+Hotkey=W
+Unhotkey=W
 
 //rifleman
 [hrif]
@@ -711,6 +711,11 @@ Tip=Train Shaman (|cffffcc00W|r)
 
 // Purge
 [Aprg]
+Tip=Purge (|cffffcc00E|r)
+Hotkey=E
+
+// Purge
+[Apg2]
 Tip=Purge (|cffffcc00E|r)
 Hotkey=E
 
