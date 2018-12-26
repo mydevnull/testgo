@@ -956,7 +956,7 @@ Tip=Build |cffffcc00V|roodoo Lounge
 
 //watch tower
 [owtw]
-Hotkey=W
+Hotkey=Z
 Tip=Build |cffffcc00W|ratch Tower
 
 

@@ -956,8 +956,8 @@ Tip=Build Voodoo Lounge (|cffffcc00V|r)
 
 //watch tower
 [owtw]
-Hotkey=W
-Tip=Build Watch Tower (|cffffcc00W|r)
+Hotkey=Z
+Tip=Build Watch Tower (|cffffcc00Z|r)
 
 
 /////////////////////////////
