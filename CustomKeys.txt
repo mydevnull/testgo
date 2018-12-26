@@ -220,14 +220,14 @@ Tip=Train |cffffcc00P|reasant
 [Amil]
 Tip=|cffffcc00C|rall to Arms
 Untip=Back to |cffffcc00W|rork
-Hotkey=E
+Hotkey=W
 Unhotkey=W
 
 // Call to Arms (for all nearby peons, on a town hall)
 [Amic]
 Tip=|cffffcc00C|rall to Arms
 Untip=Back to |cffffcc00W|rork
-Hotkey=E
+Hotkey=W
 Unhotkey=W
 
 //rifleman
@@ -711,6 +711,11 @@ Tip=Train |cffffcc00S|rhaman
 
 // Purge
 [Aprg]
+Tip=Pur|cffffcc00g|re
+Hotkey=E
+
+// Purge
+[Apg2]
 Tip=Pur|cffffcc00g|re
 Hotkey=E
 
