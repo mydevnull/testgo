@@ -404,9 +404,9 @@ Hotkey=E
 Tip=Build Altar of Kings (|cffffcc00E|r)
 
 //workshop
-[harm]	
-Hotkey=W
-Tip=Build Workshop (|cffffcc00W|r)
+[harm]
+Hotkey=K
+Tip=Build Workshop (|cffffcc00K|r)
 
 //arcane sanctum
 [hars]
