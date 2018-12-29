@@ -404,8 +404,8 @@ Hotkey=E
 Tip=Build |cffffcc00A|rltar of Kings
 
 //workshop
-[harm]	
-Hotkey=W
+[harm]
+Hotkey=K
 Tip=Build |cffffcc00W|rorkshop
 
 //arcane sanctum
